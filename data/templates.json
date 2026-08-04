@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "community-charter-template",
+    "title": "Executive Community Charter Template",
+    "relatedGuide": "executive-community-charter",
+    "instructions": "Complete this with founding members before accepting sponsors or launching a recurring program.",
+    "content": "# [COMMUNITY NAME] Charter\n\nVersion: 1.1\nReview date: [DATE]\nOwner: [NAME OR ROLE]\n\n## Purpose\n[COMMUNITY NAME] exists to help [MEMBER PROFILE] address [SHARED DECISIONS OR CHALLENGES] through [FORMATS].\n\n## Membership\nMembers must [ROLE AND SCOPE CRITERIA]. Admission is decided by [DECISION OWNER]. Conflicts are reviewed using [PROCESS]. Membership may be reviewed when a member changes role.\n\n## Participation\nMembers agree to prepare, contribute relevant experience, respect time, avoid hard pitching and follow the stated confidentiality rule.\n\n## Confidentiality\nSessions use [CHATHAM HOUSE RULE / OFF-THE-RECORD RULE / CUSTOM RULE]. Recording and photography are [POLICY]. The community cannot promise legal privilege or absolute confidentiality.\n\n## Sponsors\nSponsors may [RIGHTS]. Sponsors may not [RESTRICTIONS]. Participant data is handled according to [PRIVACY NOTICE].\n\n## Conduct and removal\nConcerns may be reported to [CONTACT]. The community may warn, pause or remove a member for [REASONS]. The decision and appeal process is [PROCESS].\n\n## Review\nThis charter is reviewed every [PERIOD] by [OWNER]. Material changes are communicated before they take effect.\n\nDisclaimer: Adapt this template to your community and obtain qualified legal or privacy advice where required."
+  },
+  {
+    "slug": "member-application-template",
+    "title": "Executive Community Member Application",
+    "relatedGuide": "member-selection",
+    "instructions": "Ask only questions that inform a stated selection or operating decision.",
+    "content": "# [COMMUNITY NAME] Member Application\n\nVersion: 1.1\nReview date: [DATE]\n\n## Professional context\nName: [NAME]\nRole: [TITLE]\nOrganization: [ORGANIZATION]\nMarket or region: [LOCATION]\nDecision-making scope: [SCOPE]\nCompany stage, ownership or scale where relevant: [CONTEXT]\n\n## Fit\nWhich decisions would you value discussing with peers? [RESPONSE]\nWhat experience can you contribute? [RESPONSE]\nWhich conflicts or competitive overlaps should the host understand? [RESPONSE]\n\n## Participation\nCan you attend [CADENCE]? [YES / NO]\nDo you agree to the charter, confidentiality and no-hard-pitching rules? [YES / NO]\n\n## Data notice\nWe use this information for [PURPOSES], retain it for [PERIOD] and limit access to [ROLES]. Contact [EMAIL] to request correction or deletion where applicable.\n\nApplicant acknowledgment: [NAME / DATE]\n\nDisclaimer: This is an operating template, not legal or privacy advice."
+  },
+  {
+    "slug": "member-invitation-email-template",
+    "title": "Executive Community Invitation Email",
+    "relatedGuide": "member-selection",
+    "instructions": "Personalize the reason for invitation and remove any language that suggests automatic acceptance.",
+    "content": "# Member Invitation Email\n\nVersion: 1.1\nReview date: [DATE]\n\nSubject: Invitation to [COMMUNITY OR SESSION NAME]\n\nHello [FIRST NAME],\n\nI am inviting you to [COMMUNITY OR SESSION] because [SPECIFIC REASON CONNECTED TO ROLE OR EXPERIENCE].\n\nThe group brings together [MEMBER PROFILE] to discuss [DECISIONS OR TOPICS]. The next session is [DATE, TIME, TIME ZONE] at [LOCATION OR LINK]. [SPONSOR], if applicable, supports the session as [ROLE].\n\nThe discussion will use [CONFIDENTIALITY RULE]. There is no hard pitching, recording or unapproved photography. Members are expected to contribute practical experience and respect the participation rules.\n\nIf the topic is relevant, please reply by [DATE]. I can share the charter and participant profile before you decide. Invitations are personal, so substitutions require host approval.\n\nBest,\n[HOST NAME]\n[ROLE]\n[CONTACT]\n\nDisclaimer: Adapt privacy, consent and event terms for your jurisdiction."
+  },
+  {
+    "slug": "confidentiality-participation-template",
+    "title": "Confidentiality and Participation Statement",
+    "relatedGuide": "trust-and-confidentiality",
+    "instructions": "Select one attribution rule and explain it verbally at the beginning of each session.",
+    "content": "# [COMMUNITY NAME] Confidentiality and Participation Statement\n\nVersion: 1.1\nReview date: [DATE]\n\nThis session is intended to support candid professional discussion. Participants may [USE INFORMATION WITHOUT ATTRIBUTION / NOT SHARE SESSION CONTENT] according to the rule stated by the host.\n\nParticipants must not identify a speaker, organization or other participant without permission. Recording, transcription, screenshots and photography are prohibited unless the host and affected participants approve them in advance.\n\nParticipants remain responsible for what they disclose. Do not share privileged, regulated, personal, security-sensitive or competitively sensitive information that you are not authorized to disclose. The organizer cannot promise legal privilege or absolute confidentiality.\n\nParticipants agree to contribute respectfully, avoid hard pitching, disclose relevant conflicts and request consent before follow-up contact or introductions.\n\nConcerns should be reported privately to [CONTACT]. Breaches may result in warning, suspension or removal under [PROCESS].\n\nAcknowledged by: [NAME]\nDate: [DATE]\n\nDisclaimer: This statement is not legal advice. Obtain qualified review for your format and jurisdiction."
+  },
+  {
+    "slug": "sponsor-agreement-framework-template",
+    "title": "Executive Community Sponsor Agreement Framework",
+    "relatedGuide": "sponsoring-an-executive-community",
+    "instructions": "Use this as a commercial discussion framework and have the final agreement reviewed professionally.",
+    "content": "# Sponsor Agreement Framework\n\nVersion: 1.1\nReview date: [DATE]\nParties: [COMMUNITY] and [SPONSOR]\nTerm: [START] to [END]\n\n## Purpose and support\n[SPONSOR] will provide [FUNDING OR IN-KIND SUPPORT] for [PROGRAM]. The relationship will be disclosed as [WORDING].\n\n## Sponsor rights\nThe sponsor may [BRANDING, HOSTING, APPROVED PARTICIPATION, CONTENT RIGHTS]. Any stage time or demonstration must be labeled and approved in advance.\n\n## Boundaries\nThe sponsor will not receive attendee lists, guaranteed meetings, private peer discussions or unrestricted follow-up rights. Introductions require a relevant reason and consent. The sponsor may not use confidential discussion as sales intelligence.\n\n## Editorial independence\n[COMMUNITY] controls invitations, facilitation, methodology and editorial conclusions. Sponsor input and funding will be disclosed where material.\n\n## Data\nEach party will process personal information only for agreed purposes under [PRIVACY TERMS].\n\n## Conduct, review and termination\nConcerns are escalated to [CONTACTS]. Renewal considers delivery, member relevance, consent-compliant follow-up and host behavior. Material boundary breaches may end the agreement under [PROCESS].\n\nDisclaimer: This framework is not a contract or legal advice."
+  },
+  {
+    "slug": "sponsor-host-briefing-template",
+    "title": "Sponsor Host Briefing",
+    "relatedGuide": "sponsoring-an-executive-community",
+    "instructions": "Brief every sponsor attendee, including senior leaders who join late.",
+    "content": "# [PROGRAM] Sponsor Host Briefing\n\nVersion: 1.1\nReview date: [DATE]\nSponsor: [SPONSOR]\nCommunity lead: [NAME]\n\n## Member promise\nThe session exists for [MEMBER PROFILE] to discuss [QUESTION]. Sponsor success depends on relevant contribution and trusted relationships, not immediate lead capture.\n\n## You may\nWelcome participants; explain your disclosed support; contribute concise operating experience; answer invited questions; request consent for relevant follow-up.\n\n## You may not\nDeliver an unapproved pitch; collect attendee data; force demonstrations; dominate discussion; promise community endorsement; make unrequested sales contact; quote participants.\n\n## Opening\nUse this wording: ‘[SPONSOR] supports this session. [COMMUNITY] controls invitations and facilitation. We are here to listen and contribute.’\n\n## Escalation\nDirect member-fit, confidentiality, press and data questions to [COMMUNITY LEAD]. Report any concern immediately.\n\nSponsor attendees: [NAMES]\nBriefing acknowledged: [NAME / DATE]\n\nDisclaimer: Adapt this briefing to the signed sponsor terms."
+  },
+  {
+    "slug": "community-host-briefing-template",
+    "title": "Executive Community Host Briefing",
+    "relatedGuide": "regional-hosts-and-local-conveners",
+    "instructions": "Use this before each session and document local adaptations.",
+    "content": "# [COMMUNITY NAME] Host Briefing\n\nVersion: 1.1\nReview date: [DATE]\nHost: [NAME]\nSession: [DATE / FORMAT]\n\n## Before\nConfirm why each participant belongs; review conflicts and accessibility needs; brief sponsors; prepare the opening question; confirm confidentiality, recording and photography rules; plan seating or contribution order.\n\n## Open\nState the purpose, participant profile, confidentiality rule, sponsor relationship and close. Keep introductions relevant and short.\n\n## Facilitate\nInvite experience before advice; ask dominant speakers to pause; include quieter perspectives without forcing disclosure; stop hard pitching; prevent unsafe or unnecessary detail; keep time.\n\n## Close\nSummarize decisions without attribution; ask for useful requests; explain introduction consent and feedback; confirm what will be shared.\n\n## After\nComplete follow-up by [DATE]; record only necessary data; escalate conduct or privacy concerns to [CONTACT]; note what should continue, change or stop.\n\nDisclaimer: This is an operating checklist, not legal advice."
+  },
+  {
+    "slug": "speaker-briefing-template",
+    "title": "Executive Community Speaker Briefing",
+    "relatedGuide": "executive-roundtable",
+    "instructions": "Send this before accepting slides or announcing the speaker.",
+    "content": "# [PROGRAM] Speaker Briefing\n\nVersion: 1.1\nReview date: [DATE]\nSpeaker: [NAME]\nHost: [NAME]\n\n## Audience and purpose\nParticipants are [PROFILE]. The session should help them [DECISION OR OUTCOME]. Assume executive context and avoid a basic company presentation.\n\n## Format\nYou have [TIME] for opening context followed by [TIME] of facilitated discussion. Slides are [ALLOWED / NOT USED] and due [DATE].\n\n## Content standards\nUse practical examples; identify assumptions; disclose commercial interests; source external statistics; distinguish experience from universal guidance; avoid unsupported superlatives.\n\n## Boundaries\nNo hard pitch, surprise demonstration, attendee-list request, unapproved recording or quotation of participants. [CONFIDENTIALITY RULE] applies.\n\n## Accessibility\nProvide readable materials, describe meaningful visuals and avoid relying on color alone.\n\n## Follow-up\nApproved resources: [LIST]. Participant follow-up requires consent.\n\nAcknowledged: [NAME / DATE]\n\nDisclaimer: Speakers remain responsible for their claims and permissions."
+  },
+  {
+    "slug": "executive-dinner-run-of-show-template",
+    "title": "Executive Dinner Run of Show",
+    "relatedGuide": "private-executive-dinner-playbook",
+    "instructions": "Adapt timing to service, guest count and the discussion rule.",
+    "content": "# [DINNER NAME] Run of Show\n\nVersion: 1.1\nReview date: [DATE]\nHost: [NAME]\nVenue: [VENUE]\nTopic: [DECISION QUESTION]\n\nT-30: Confirm room, place cards, accessibility, dietary needs, service timing and sponsor boundaries.\n\n0–20: Welcome guests individually. Avoid uncontrolled pitching during arrival.\n\n20–30: Seat guests. State purpose, confidentiality rule, sponsor relationship, recording policy and timing.\n\n30–45: Concise introductions: name, role and one relevant question.\n\n45–95: Facilitated discussion. Use prepared prompts, balance contribution and stop selling.\n\n95–110: Ask for implications, resources and consent-based introduction requests.\n\n110–120: Close. Explain feedback, follow-up and what will not be published.\n\nAfter: Send promised resources, confirm introductions with both parties, log incidents and complete the post-event review.\n\nDisclaimer: Venue, privacy and hospitality obligations require local review."
+  },
+  {
+    "slug": "executive-roundtable-run-of-show-template",
+    "title": "Executive Roundtable Run of Show",
+    "relatedGuide": "executive-roundtable",
+    "instructions": "Use one decision question and protect equal contribution.",
+    "content": "# [ROUNDTABLE NAME] Run of Show\n\nVersion: 1.1\nReview date: [DATE]\nDuration: [MINUTES]\nFacilitator: [NAME]\n\n0–10: Welcome, purpose, participant profile, confidentiality rule and sponsor disclosure.\n\n10–20: Introductions. Each participant states role and one constraint connected to the topic.\n\n20–30: Frame [DECISION QUESTION]. Present only the facts needed for discussion.\n\n30–65: First round. Each participant shares experience or a question.\n\n65–80: Facilitated comparison of decisions, tradeoffs and unresolved issues.\n\n80–90: Practical close. Capture requested resources, consent-based introductions and one action each participant may take.\n\nFacilitator prompts: What changed your decision? Which assumption matters most? What would make this fail? Which experience does not transfer?\n\nAfter: Send non-attributed synthesis only if agreed. Do not send participant data to sponsors without consent.\n\nDisclaimer: This template does not create legal privilege or confidentiality by itself."
+  },
+  {
+    "slug": "post-event-review-template",
+    "title": "Executive Community Post-Event Review",
+    "relatedGuide": "executive-community-measurement",
+    "instructions": "Complete within two business days while operating details are fresh.",
+    "content": "# [EVENT] Post-Event Review\n\nVersion: 1.1\nReview date: [DATE]\nOwner: [NAME]\n\n## Member fit\nInvited / accepted / attended: [COUNTS]\nParticipants matching criteria: [COUNT AND EXCEPTIONS]\nPeer-to-provider balance: [NOTE]\n\n## Participation\nRepeat participants: [COUNT]\nContribution balance: [OBSERVATION]\nMember-led questions or examples: [NOTE]\n\n## Value\nMost useful decision or topic: [NOTE]\nRequested resources: [LIST]\nIntroductions requested / accepted / completed: [COUNTS]\n\n## Trust and boundaries\nConfidentiality concerns: [NONE / DETAILS]\nHard pitching or sponsor issues: [NONE / DETAILS]\nAccessibility or inclusion issues: [NONE / DETAILS]\n\n## Decision\nContinue: [ITEMS]\nChange: [ITEMS]\nStop: [ITEMS]\nOwner and due date: [NAME / DATE]\n\nDisclaimer: Store feedback and participant information according to the stated privacy practice."
+  },
+  {
+    "slug": "member-feedback-survey-template",
+    "title": "Executive Community Member Feedback Survey",
+    "relatedGuide": "executive-community-measurement",
+    "instructions": "Keep the survey short and connect every question to a decision.",
+    "content": "# [COMMUNITY] Member Feedback Survey\n\nVersion: 1.1\nReview date: [DATE]\n\n1. How relevant were the participants to your role and current decisions? [1–5]\n2. How useful was the discussion for a real decision or next step? [1–5]\n3. Did you have a credible opportunity to contribute? [YES / PARTLY / NO]\n4. How confident are you that participants will respect the stated confidentiality rule? [1–5]\n5. Did you experience hard selling or unrequested commercial follow-up? [NO / YES, OPTIONAL DETAIL]\n6. Which question should a future session address? [TEXT]\n7. Would a specific introduction or resource be useful? [TEXT]\n8. What should the host continue, change or stop? [TEXT]\n9. May we contact you about this response? [YES / NO]\n\nPrivacy note: Responses are used for [PURPOSE], accessed by [ROLES] and retained for [PERIOD].\n\nDisclaimer: Adapt privacy and research consent language professionally."
+  },
+  {
+    "slug": "community-health-scorecard-template",
+    "title": "Executive Community Health Scorecard",
+    "relatedGuide": "executive-community-measurement",
+    "instructions": "Set targets from your own member promise. Do not import invented industry benchmarks.",
+    "content": "# [COMMUNITY] Health Scorecard\n\nVersion: 1.1\nReview date: [DATE]\nPeriod: [MONTH / QUARTER]\n\n## Member fit\nQualified active members: [COUNT]\nRole and stage relevance: [NOTE]\nPeer-to-provider balance: [RATIO]\n\n## Participation\nRepeat attendance: [COUNT / RATE]\nActive contribution: [COUNT / METHOD]\nMember-led participation: [COUNT]\n\n## Relationships\nIntroductions requested / accepted / completed: [COUNTS]\nCross-market connections: [COUNT]\nMember-to-member assistance reported: [COUNT]\n\n## Learning and trust\nDecision usefulness: [METHOD / RESULT]\nConfidentiality confidence: [METHOD / RESULT]\nHard-selling incidents: [COUNT]\n\n## Durability\nRenewal and referral: [COUNTS]\nHost quality: [REVIEW]\nSponsor alignment: [REVIEW]\nSuccession risk: [LOW / MEDIUM / HIGH]\n\n## Decisions\nContinue / change / stop: [ACTIONS]\n\nDisclaimer: Use minimum necessary data and avoid claiming causation from association."
+  },
+  {
+    "slug": "member-renewal-review-template",
+    "title": "Executive Community Member Renewal Review",
+    "relatedGuide": "member-selection",
+    "instructions": "Apply the same criteria consistently and separate role changes from conduct concerns.",
+    "content": "# [COMMUNITY] Member Renewal Review\n\nVersion: 1.1\nReview date: [DATE]\nMember: [NAME]\nReviewer: [NAME]\n\n## Current fit\nCurrent role and scope: [DETAIL]\nStill matches published criteria: [YES / NO / REVIEW]\nRelevant conflicts or changes: [DETAIL]\n\n## Participation\nAttendance against expectation: [NOTE]\nQuality of contribution: [NOTE]\nFollow-through on commitments: [NOTE]\n\n## Conduct\nConfidentiality concerns: [NONE / DETAIL]\nHard pitching or unrequested contact: [NONE / DETAIL]\nOther charter concerns: [NONE / DETAIL]\n\n## Member value\nValue received or requested: [NOTE]\nFormat or cohort changes needed: [NOTE]\n\n## Decision\nRenew / renew with change / pause / do not renew: [DECISION]\nReason and evidence: [NOTE]\nCommunication owner and date: [DETAIL]\nAppeal or review route: [PROCESS]\n\nDisclaimer: Apply employment, discrimination, contract and privacy obligations with qualified advice."
+  },
+  {
+    "slug": "conflict-of-interest-disclosure-template",
+    "title": "Community Conflict of Interest Disclosure",
+    "relatedGuide": "executive-community-charter",
+    "instructions": "Collect only conflicts relevant to participation, editorial work or sponsor decisions.",
+    "content": "# [COMMUNITY] Conflict of Interest Disclosure\n\nVersion: 1.1\nReview date: [DATE]\nName: [NAME]\nRole in community: [MEMBER / HOST / EDITOR / SPONSOR / SPEAKER]\n\nPlease disclose relationships that could reasonably affect, or appear to affect, your participation in [DECISION, SESSION OR PUBLICATION].\n\nFinancial or commercial interests: [DETAIL / NONE]\nEmployment or advisory roles: [DETAIL / NONE]\nInvestor, board or governance relationships: [DETAIL / NONE]\nCompetitive or portfolio conflicts: [DETAIL / NONE]\nPersonal relationships relevant to the decision: [DETAIL / NONE]\nOther material interests: [DETAIL / NONE]\n\nProposed management: [DISCLOSURE / RECUSAL / SESSION SEPARATION / OTHER]\nDecision owner: [NAME]\nDecision and review date: [DETAIL]\n\nI confirm this disclosure is accurate to the best of my knowledge and will update it if circumstances change.\n\nSignature / date: [NAME / DATE]\n\nDisclaimer: This operating form is not legal, fiduciary or compliance advice."
+  }
+]

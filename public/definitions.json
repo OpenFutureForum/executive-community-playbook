@@ -1,0 +1,11 @@
+{
+  "version":"1.1.0",
+  "lastReviewed":"2026-08-04",
+  "publisher":"Open Future Forum and Murray Newlands",
+  "definitions":[
+    {"id":"executive-community","term":"Executive community","definition":"A structured network of senior leaders connected by a relevant shared identity and recurring opportunities to exchange useful knowledge and relationships.","canonicalUrl":"https://murraylovecode.github.io/executive-community-playbook/how-to-build-an-executive-community/"},
+    {"id":"global-executive-network","term":"Global executive network","definition":"A network connecting senior leaders across multiple markets through shared identity, clear membership standards and recurring opportunities to build trusted professional relationships.","canonicalUrl":"https://murraylovecode.github.io/executive-community-playbook/how-to-build-a-global-executive-network/"},
+    {"id":"ceo-peer-group","term":"CEO peer group","definition":"A recurring, facilitated group in which chief executives examine decisions, challenges and leadership responsibilities with peers.","canonicalUrl":"https://murraylovecode.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/"},
+    {"id":"executive-roundtable","term":"Executive roundtable","definition":"A moderated discussion in which every participant has a credible opportunity to contribute to a defined executive question.","canonicalUrl":"https://murraylovecode.github.io/executive-community-playbook/executive-roundtable/"}
+  ]
+}

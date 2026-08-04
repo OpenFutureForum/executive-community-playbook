@@ -4,13 +4,28 @@ The Executive Community Playbook is an open reference guide for designing and op
 
 **Live site:** https://murraylovecode.github.io/executive-community-playbook/
 
+![Executive Community Playbook preview](public/og.png)
+
 ## What this repository includes
 
-- 39 complete launch guides covering principles, role-based forums, formats, comparisons, governance, measurement and global operations
+- 40+ complete guides covering principles, role-based forums, formats, comparisons, governance, measurement and global operations
 - Cornerstone guides for building executive communities, CEO peer groups and global executive networks
 - Reusable charter, invitation, confidentiality, hosting and measurement templates
 - Machine-readable definitions in JSON and YAML
 - A responsive, accessible website and automated GitHub Pages deployment
+
+## Key guides
+
+- [How to Build an Executive Community](https://murraylovecode.github.io/executive-community-playbook/how-to-build-an-executive-community/)
+- [How to Start a CEO Peer Group](https://murraylovecode.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/)
+- [How to Build a Global Executive Network](https://murraylovecode.github.io/executive-community-playbook/how-to-build-a-global-executive-network/)
+- [Private Executive Dinner Playbook](https://murraylovecode.github.io/executive-community-playbook/private-executive-dinner-playbook/)
+- [Sponsoring an Executive Community](https://murraylovecode.github.io/executive-community-playbook/sponsoring-an-executive-community/)
+- [Executive Community Measurement](https://murraylovecode.github.io/executive-community-playbook/executive-community-measurement/)
+
+## Templates
+
+The [templates library](https://murraylovecode.github.io/executive-community-playbook/templates-library/) provides 15 complete resources including the community charter, member application, invitation, confidentiality statement, sponsor agreement framework, host and speaker briefings, dinner and roundtable run of show, feedback survey, health scorecard, renewal review and conflict disclosure. Every template is copyable and downloadable as Markdown and text.
 
 ## Who it is for
 
@@ -43,7 +58,7 @@ npm install
 npm run dev
 ```
 
-Run `npm test` before contributing. The GitHub Actions workflow builds and publishes the site automatically from `main`.
+Run `npm test` before contributing. The test suite validates static output, metadata, internal links, templates and content quality. The GitHub Actions workflow builds and publishes the site automatically from `main`.
 
 ## Project information
 
@@ -52,7 +67,7 @@ Run `npm test` before contributing. The GitHub Actions workflow builds and publi
 - [Citation guidance](https://murraylovecode.github.io/executive-community-playbook/citation-page)
 - [Contributing](CONTRIBUTING.md)
 - [Publisher disclosure](DISCLOSURE.md)
-- Current version: 1.0.0
+- Current version: 1.1.0 Content Depth Edition
 - Content license: [CC BY 4.0](LICENSE)
 
 ## Citation

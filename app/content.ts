@@ -1,11 +1,13 @@
-export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: { heading: string; body: string; points?: string[] }[]; comparison?: { criterion: string; local: string; global: string }[]; faq?: { question: string; answer: string }[] };
+export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: { heading: string; body: string; points?: string[] }[]; comparison?: { criterion: string; local: string; global: string }[]; faq?: { question: string; answer: string }[]; sources?: { label: string; url: string; note: string }[]; relatedTemplate?: string; template?: { content:string; instructions:string; relatedGuide:string } };
+import { depth } from "./depth";
+import templates from "../data/templates.json";
 
 const core = (title: string, focus: string, audience: string, risks: string[]): Page["sections"] => [
-  { heading: `What ${title.toLowerCase()} means`, body: `${focus} The model works when members understand why the group exists, who belongs and what participation requires. A clear promise is more useful than a broad claim of access.` },
-  { heading: "Design decisions", body: `Start with the member problem, then choose the format. Define the audience as precisely as the value proposition. Decide which interactions are private, which outputs can be public and how decisions will be made.`, points: ["Write a one-sentence member promise", `Validate the need with ${audience}`, "Set admission and removal criteria", "Choose a cadence members can sustain", "Document sponsor and confidentiality boundaries"] },
-  { heading: "How to operate it", body: "Use a repeatable cycle: select members, prepare them, convene a useful exchange, follow up on commitments and review what created value. Keep records of attendance and introductions without turning trust into surveillance." },
-  { heading: "Common failure modes", body: "Most failures begin with an unclear audience, inconsistent hosting or incentives that favor the organizer over members.", points: risks },
-  { heading: "Practical next step", body: "Draft a one-page charter before choosing a platform or venue. Test it with five prospective members. Revise the promise, boundaries and cadence until each person can explain the value in plain language." },
+  { heading: `About ${title}`, body: `${focus} This page explains the operating choices that distinguish the format from adjacent community models.` },
+  { heading: `Operating decisions for ${title}`, body: `Define the eligible ${audience}, the decision or relationship the format supports, the information that must remain private and the person accountable for quality.`, points: ["State the participant profile", "Name the recurring member value", "Set admission and removal criteria", "Choose a sustainable cadence", "Document sponsor and confidentiality boundaries"] },
+  { heading: "Operating procedure", body: "Select participants against written criteria, brief everyone before the session, facilitate contribution, obtain consent for follow-up and review what should continue, change or stop." },
+  { heading: "Topic-specific risks", body: `These risks should be addressed before publishing or promoting ${title}.`, points: risks },
+  { heading: "Decision check", body: `Confirm that the format, membership criteria and host responsibilities are specific enough for a prospective participant to decide whether ${title} is relevant.` },
 ];
 
 const specs: Array<[string,string,string,string,string,string,string[]]> = [
@@ -104,6 +106,33 @@ comparisonPage.faq = [
   { question: "Can a local community become global?", answer: "Yes, but it should expand only after its member promise, selection standards and operating cadence are repeatable." },
   { question: "Can members belong globally but participate locally?", answer: "Yes. This connected regional model is often the most practical way to combine global identity with strong relationships." },
 ];
+
+for (const [slug, override] of Object.entries(depth)) {
+  const page = pages.find(item => item.slug === slug);
+  if (page) Object.assign(page, override);
+}
+globalGuide.relatedTemplate = "host-briefing";
+globalGuide.sources = [{label:"ICO data protection principles",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/",note:"Primary guidance relevant to cross-border member data practices."}];
+pages.push({
+  slug:"sources-and-references",title:"Sources and References",category:"Project documentation",group:"Project",summary:"Primary references used for confidentiality, privacy, accessibility, sponsorship disclosure and editorial practice.",intro:"The playbook cites external sources when they support a specific factual claim, rule or standard; sources are not added merely for decoration.",
+  sections:[
+    {heading:"Source selection policy",body:"Primary institutional sources are preferred for rules, standards and formal definitions. Public sources are assessed for authority, relevance and currency. Publisher operating experience and editorial judgment are labeled separately from external evidence."},
+    {heading:"Confidentiality and the Chatham House Rule",body:"Chatham House defines its Rule and explains that it permits use of information while protecting the identity and affiliation of speakers and participants. The Rule is not legally binding and is different from a stricter off-the-record agreement."},
+    {heading:"Privacy and data protection",body:"The UK Information Commissioner’s Office explains core data protection principles including lawfulness, purpose limitation, data minimisation, accuracy, retention, security and accountability. Community operators should obtain qualified guidance for obligations in their jurisdictions."},
+    {heading:"Accessibility",body:"The World Wide Web Consortium publishes WCAG 2.2 as a Recommendation for making web content more accessible. This project uses semantic structure, visible focus states, responsive tables and reduced-motion support as practical implementation measures."},
+    {heading:"Sponsorship disclosure",body:"The U.S. Federal Trade Commission’s Endorsement Guides explain that material connections affecting how people evaluate an endorsement should be disclosed. Operators should seek jurisdiction-specific advice for their own promotional activity."},
+    {heading:"Research and survey claims",body:"Research pages should identify the sample, recruitment, dates, questions, method and limitations. Community samples should not be presented as representative of all executives without supporting evidence. Private participation does not create automatic consent to quote or publish."}
+  ],
+  sources:[
+    {label:"Chatham House Rule",url:"https://www.chathamhouse.org/about-us/chatham-house-rule",note:"Official definition and explanation."},
+    {label:"ICO data protection principles",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/",note:"Official organizational guidance."},
+    {label:"WCAG 2.2",url:"https://www.w3.org/TR/WCAG22/",note:"W3C Recommendation."},
+    {label:"FTC Endorsement Guides",url:"https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements",note:"Official U.S. advertising guidance."}
+  ]
+});
+for (const template of templates) {
+  pages.push({slug:template.slug,title:template.title,category:"Template",group:"Templates",summary:`A complete, copy-ready ${template.title.toLowerCase()} with clear placeholders and adaptation notes.`,intro:`This template provides usable starting text for ${template.title.toLowerCase()}; adapt it to the community, format and jurisdiction.`,sections:[],template:{content:template.content,instructions:template.instructions,relatedGuide:template.relatedGuide}});
+}
 export const featured = pages.slice(0,4);
 export const groups = [
   { number:"01", name:"Principles", id:"principles", description:"Norms that protect trust, contribution and audience quality." },

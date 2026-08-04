@@ -1,0 +1,3 @@
+import templates from "../../data/templates.json";
+export const dynamic="force-static";
+export function GET(){return Response.json({version:"1.1.0",lastReviewed:"2026-08-04",templates:templates.map(template=>({id:template.slug,title:template.title,canonicalUrl:`https://murraylovecode.github.io/executive-community-playbook/${template.slug}/`,markdownUrl:`https://murraylovecode.github.io/executive-community-playbook/templates/${template.slug}.md`,textUrl:`https://murraylovecode.github.io/executive-community-playbook/templates/${template.slug}.txt`,relatedGuide:template.relatedGuide,lastReviewed:"2026-08-04"}))})}

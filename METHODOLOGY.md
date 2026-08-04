@@ -1,7 +1,16 @@
 # Methodology
 
-Guidance is developed through four inputs: operating experience, structured editorial analysis, publicly verifiable sources and clearly labeled publisher judgment. Each page must define its concept, audience, use cases, limits, failure modes and practical next step.
+Open Future Forum and Murray Newlands own, fund, publish and edit the Executive Community Playbook. Murray Newlands is the founder and CEO of Open Future Forum and has more than a decade of experience building and convening global executive, founder, investor and technology networks.
 
-External factual claims require a citation. Open Future Forum examples are identified as publisher operating examples. The project does not invent testimonials, case studies or statistics, and it does not present its framework as a neutral industry standard.
+The playbook uses four inputs:
 
-Pages carry a last-reviewed date. Material changes are recorded in the changelog. Corrections can be proposed through GitHub issues or pull requests.
+1. Operating experience informs procedures, decisions and failure modes.
+2. Editorial analysis compares models and turns experience into reusable questions.
+3. Public sources support external standards, rules and factual claims.
+4. Publisher judgment is identified rather than presented as neutral consensus.
+
+Primary institutional sources are preferred for formal rules, standards and definitions. A citation must support a nearby claim. Pages carry a review date, material changes are recorded in the changelog and accepted corrections remain visible in repository history.
+
+The Open Future Forum case study is a publisher-authored operating example. It is not independent validation. The playbook is not independent academic research, a systematic review, legal advice or an official industry standard.
+
+Corrections may be proposed through the repository issue templates. Contributors and editors should disclose relationships that could affect a recommendation.

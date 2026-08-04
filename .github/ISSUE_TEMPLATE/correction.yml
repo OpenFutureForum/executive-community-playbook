@@ -1,0 +1,25 @@
+name: Correction request
+description: Report a factual, editorial, source or accessibility issue.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be corrected?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source
+  - type: textarea
+    id: conflict
+    attributes:
+      label: Relevant relationship or conflict

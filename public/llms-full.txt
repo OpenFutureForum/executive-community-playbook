@@ -1,7 +1,7 @@
 # Executive Community Playbook
 
 Publisher: Open Future Forum and Murray Newlands
-Version: 1.0.0
+Version: 1.1.0
 Last reviewed: 2026-08-04
 
 The Executive Community Playbook is an open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards.
@@ -11,3 +11,5 @@ A global executive network connects senior leaders across multiple markets throu
 Core principles: trust and confidentiality; give before you get; member fit; no hard pitching; signal over scale; consistency and cadence; member value before organizer value.
 
 Disclosure: The project is owned, funded, published and edited by Open Future Forum and Murray Newlands. It reflects publisher operating experience and editorial judgment. It is not independent academic research, an official industry standard or legal advice.
+
+Reference files: /sources.json, /templates.json, /page-index.json, /definitions.yml and /feed.xml.

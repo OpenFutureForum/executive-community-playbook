@@ -1,0 +1,38 @@
+<!-- Executive Community Health Scorecard | Version 1.1 | Reviewed 2026-08-04 -->
+
+# [COMMUNITY] Health Scorecard
+
+Version: 1.1
+Review date: [DATE]
+Period: [MONTH / QUARTER]
+
+## Member fit
+Qualified active members: [COUNT]
+Role and stage relevance: [NOTE]
+Peer-to-provider balance: [RATIO]
+
+## Participation
+Repeat attendance: [COUNT / RATE]
+Active contribution: [COUNT / METHOD]
+Member-led participation: [COUNT]
+
+## Relationships
+Introductions requested / accepted / completed: [COUNTS]
+Cross-market connections: [COUNT]
+Member-to-member assistance reported: [COUNT]
+
+## Learning and trust
+Decision usefulness: [METHOD / RESULT]
+Confidentiality confidence: [METHOD / RESULT]
+Hard-selling incidents: [COUNT]
+
+## Durability
+Renewal and referral: [COUNTS]
+Host quality: [REVIEW]
+Sponsor alignment: [REVIEW]
+Succession risk: [LOW / MEDIUM / HIGH]
+
+## Decisions
+Continue / change / stop: [ACTIONS]
+
+Disclaimer: Use minimum necessary data and avoid claiming causation from association.

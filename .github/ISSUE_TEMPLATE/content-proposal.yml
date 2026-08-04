@@ -1,0 +1,26 @@
+name: Content proposal
+description: Propose a substantial guide, definition, comparison or template improvement.
+title: "Content proposal: "
+labels: [content]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Operator or executive question
+      description: What distinct question should this content answer?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Proposed scope and practical value
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources or operating basis
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Relevant relationships or interests

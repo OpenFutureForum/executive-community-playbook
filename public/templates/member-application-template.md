@@ -1,0 +1,30 @@
+<!-- Executive Community Member Application | Version 1.1 | Reviewed 2026-08-04 -->
+
+# [COMMUNITY NAME] Member Application
+
+Version: 1.1
+Review date: [DATE]
+
+## Professional context
+Name: [NAME]
+Role: [TITLE]
+Organization: [ORGANIZATION]
+Market or region: [LOCATION]
+Decision-making scope: [SCOPE]
+Company stage, ownership or scale where relevant: [CONTEXT]
+
+## Fit
+Which decisions would you value discussing with peers? [RESPONSE]
+What experience can you contribute? [RESPONSE]
+Which conflicts or competitive overlaps should the host understand? [RESPONSE]
+
+## Participation
+Can you attend [CADENCE]? [YES / NO]
+Do you agree to the charter, confidentiality and no-hard-pitching rules? [YES / NO]
+
+## Data notice
+We use this information for [PURPOSES], retain it for [PERIOD] and limit access to [ROLES]. Contact [EMAIL] to request correction or deletion where applicable.
+
+Applicant acknowledgment: [NAME / DATE]
+
+Disclaimer: This is an operating template, not legal or privacy advice.

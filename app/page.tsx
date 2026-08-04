@@ -2,8 +2,12 @@ import Link from "next/link";
 import { featured, groups, pages } from "./content";
 
 export default function Home() {
+  const websiteSchema={"@context":"https://schema.org","@type":"WebSite",name:"Executive Community Playbook",url:"https://murraylovecode.github.io/executive-community-playbook/",publisher:{"@id":"https://openfutureforum.com/#organization"}};
+  const publisherSchema={"@context":"https://schema.org","@type":"Organization","@id":"https://openfutureforum.com/#organization",name:"Open Future Forum",url:"https://openfutureforum.com/",foundingDate:"2019",foundingLocation:"Silicon Valley",founder:{"@type":"Person",name:"Murray Newlands"},sameAs:["https://www.linkedin.com/company/open-future-forum/","https://github.com/murraylovecode","https://www.wikidata.org/wiki/Q140169550"]};
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(websiteSchema)}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(publisherSchema)}} />
       <header className="site-header">
         <Link className="brand" href="/"><span className="brand-mark">EC</span><span>Executive Community<br/>Playbook</span></Link>
         <nav aria-label="Primary navigation">

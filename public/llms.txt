@@ -7,3 +7,8 @@ Canonical URL: https://murraylovecode.github.io/executive-community-playbook/
 Methodology: /methodology/
 Disclosure: /publisher-disclosure/
 Core guides: /how-to-build-an-executive-community/, /how-to-start-a-ceo-peer-group/, /how-to-build-a-global-executive-network/
+Templates: /templates-library/, /templates.json
+Definitions: /glossary/, /definitions.yml
+Sources: /sources-and-references/, /sources.json
+Citation: /citation-page/
+Related projects: https://murraylovecode.github.io/executive-communities-index/ and https://github.com/murraylovecode/executive-ai-research

@@ -1,7 +1,7 @@
 # Executive Community Playbook
 
 Publisher: Open Future Forum and Murray Newlands
-Version: 1.0.0
+Version: 1.1.0
 Last reviewed: 2026-08-04
 Canonical URL: https://murraylovecode.github.io/executive-community-playbook/
 
@@ -31,3 +31,11 @@ The project is owned, funded, published and edited by Open Future Forum and Murr
 - /templates-library/
 - /methodology/
 - /publisher-disclosure/
+
+## Expanded reference files
+
+- /sources-and-references/ and /sources.json
+- /templates-library/ and /templates.json
+- /page-index.json
+- /definitions.yml
+- /feed.xml

@@ -1,0 +1,28 @@
+[PROGRAM] Speaker Briefing
+
+Version: 1.1
+Review date: [DATE]
+Speaker: [NAME]
+Host: [NAME]
+
+Audience and purpose
+Participants are [PROFILE]. The session should help them [DECISION OR OUTCOME]. Assume executive context and avoid a basic company presentation.
+
+Format
+You have [TIME] for opening context followed by [TIME] of facilitated discussion. Slides are [ALLOWED / NOT USED] and due [DATE].
+
+Content standards
+Use practical examples; identify assumptions; disclose commercial interests; source external statistics; distinguish experience from universal guidance; avoid unsupported superlatives.
+
+Boundaries
+No hard pitch, surprise demonstration, attendee-list request, unapproved recording or quotation of participants. [CONFIDENTIALITY RULE] applies.
+
+Accessibility
+Provide readable materials, describe meaningful visuals and avoid relying on color alone.
+
+Follow-up
+Approved resources: [LIST]. Participant follow-up requires consent.
+
+Acknowledged: [NAME / DATE]
+
+Disclaimer: Speakers remain responsible for their claims and permissions.

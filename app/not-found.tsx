@@ -1,0 +1,3 @@
+import Link from "next/link";
+
+export default function NotFound(){return <main><header className="site-header"><Link className="brand" href="/"><span className="brand-mark">EC</span><span>Executive Community<br/>Playbook</span></Link></header><section className="wrap hero"><p className="eyebrow">404 · Page not found</p><h1>This page is not in the playbook.</h1><p className="hero-copy">The guide may have moved, or the address may be incomplete. Every retained public guide remains available from the library.</p><Link className="button primary" href="/">Return to the playbook</Link></section></main>}

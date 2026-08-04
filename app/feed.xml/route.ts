@@ -1,0 +1,4 @@
+import { pages } from "../content";
+export const dynamic="force-static";
+export function GET(){const base="https://murraylovecode.github.io/executive-community-playbook";const items=pages.slice(-25).reverse().map(p=>`<entry><title>${escape(p.title)}</title><id>${base}/${p.slug}/</id><link href="${base}/${p.slug}/"/><updated>2026-08-04T00:00:00Z</updated><summary>${escape(p.summary)}</summary></entry>`).join("");const xml=`<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Executive Community Playbook updates</title><id>${base}/</id><link href="${base}/feed.xml" rel="self"/><updated>2026-08-04T00:00:00Z</updated>${items}</feed>`;return new Response(xml,{headers:{"content-type":"application/atom+xml; charset=utf-8"}})}
+function escape(value:string){return value.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")}

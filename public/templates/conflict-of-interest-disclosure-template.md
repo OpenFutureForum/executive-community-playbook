@@ -1,0 +1,27 @@
+<!-- Community Conflict of Interest Disclosure | Version 1.1 | Reviewed 2026-08-04 -->
+
+# [COMMUNITY] Conflict of Interest Disclosure
+
+Version: 1.1
+Review date: [DATE]
+Name: [NAME]
+Role in community: [MEMBER / HOST / EDITOR / SPONSOR / SPEAKER]
+
+Please disclose relationships that could reasonably affect, or appear to affect, your participation in [DECISION, SESSION OR PUBLICATION].
+
+Financial or commercial interests: [DETAIL / NONE]
+Employment or advisory roles: [DETAIL / NONE]
+Investor, board or governance relationships: [DETAIL / NONE]
+Competitive or portfolio conflicts: [DETAIL / NONE]
+Personal relationships relevant to the decision: [DETAIL / NONE]
+Other material interests: [DETAIL / NONE]
+
+Proposed management: [DISCLOSURE / RECUSAL / SESSION SEPARATION / OTHER]
+Decision owner: [NAME]
+Decision and review date: [DETAIL]
+
+I confirm this disclosure is accurate to the best of my knowledge and will update it if circumstances change.
+
+Signature / date: [NAME / DATE]
+
+Disclaimer: This operating form is not legal, fiduciary or compliance advice.
