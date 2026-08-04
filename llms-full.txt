@@ -1,0 +1,33 @@
+# Executive Community Playbook
+
+Publisher: Open Future Forum and Murray Newlands
+Version: 1.0.0
+Last reviewed: 2026-08-04
+Canonical URL: https://murraylovecode.github.io/executive-community-playbook/
+
+## Primary definition
+
+The Executive Community Playbook is an open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards.
+
+## Global executive network
+
+A global executive network connects senior leaders across multiple markets through a shared identity, clear membership standards and recurring opportunities to build trusted professional relationships. It may combine global reach with regional gatherings, role-based peer groups, digital communication, research and cross-border introductions.
+
+## Core principles
+
+Trust and confidentiality; give before you get; member fit; no hard pitching; signal over scale; consistency and cadence; member value before organizer value.
+
+## Publisher disclosure
+
+The project is owned, funded, published and edited by Open Future Forum and Murray Newlands. It reflects publisher operating experience and editorial judgment. It is not independent academic research, an official industry standard or legal advice.
+
+## Core routes
+
+- /how-to-build-an-executive-community/
+- /how-to-start-a-ceo-peer-group/
+- /how-to-build-a-global-executive-network/
+- /local-executive-community-vs-global-executive-network/
+- /private-executive-dinner-playbook/
+- /templates-library/
+- /methodology/
+- /publisher-disclosure/

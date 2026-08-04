@@ -31,4 +31,14 @@ test("contains direct definitions, disclosures and practical checklists", async 
   assert.match(html, /Before you launch/);
   assert.match(html, /Publisher perspective/);
   assert.match(html, /not an official industry standard or legal advice/);
+  assert.match(html, /Launch and expansion checklist/);
+  assert.match(html, /FAQPage/);
+});
+
+test("exports the detailed local and global comparison", async () => {
+  const html = await readFile(new URL("out/local-executive-community-vs-global-executive-network/index.html", root), "utf8");
+  assert.match(html, /Local and global models compared/);
+  assert.match(html, /Geographic reach/);
+  assert.match(html, /Expansion risk/);
+  assert.match(html, /The models are not mutually exclusive/);
 });

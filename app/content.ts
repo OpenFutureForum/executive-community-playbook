@@ -1,4 +1,4 @@
-export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: { heading: string; body: string; points?: string[] }[] };
+export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: { heading: string; body: string; points?: string[] }[]; comparison?: { criterion: string; local: string; global: string }[]; faq?: { question: string; answer: string }[] };
 
 const core = (title: string, focus: string, audience: string, risks: string[]): Page["sections"] => [
   { heading: `What ${title.toLowerCase()} means`, body: `${focus} The model works when members understand why the group exists, who belongs and what participation requires. A clear promise is more useful than a broad claim of access.` },
@@ -52,6 +52,58 @@ const specs: Array<[string,string,string,string,string,string,string[]]> = [
 ];
 
 export const pages: Page[] = specs.map(([slug,title,category,group,summary,intro,risks]) => ({ slug,title,category,group,summary,intro,sections:core(title,intro, group.toLowerCase(),risks) }));
+
+const globalGuide = pages.find(page => page.slug === "how-to-build-a-global-executive-network")!;
+globalGuide.sections = [
+  { heading: "Local community and global network are different operating systems", body: "A local community concentrates members, context and activity in one market. A global network coordinates identity, standards and relationship opportunities across markets. The global model needs a common member promise, a reliable way to route people toward relevant regional and functional groups, and enough shared activity for members to feel part of one network.", points: ["Global identity with specific membership criteria", "Regional gatherings with local relevance", "Cross-market introductions based on a stated need", "Shared research and content that connect markets", "Consistent trust standards across every format"] },
+  { heading: "Define the global member profile", body: "Define eligibility in terms that travel across markets. Job titles, company stages and ownership structures vary by country, so use decision authority, scope, professional relevance and capacity to contribute as primary tests. Publish exceptions and conflict rules so regional growth does not weaken the promise.", points: ["Decision-making scope", "Functional or cross-functional relevance", "Company scale and stage where material", "Market representation goals", "Conflicts, vendors and service-provider rules", "Expected contribution and conduct"] },
+  { heading: "Design the regional architecture", body: "Choose where authority sits. A central team can own identity, data standards and member policy while regional conveners own relationships, programming and local partnerships. Define which decisions require approval and which can be adapted locally.", points: ["Assign a named regional host", "Set minimum host and facilitation standards", "Create a local feedback channel", "Review member fit consistently", "Allow format and timing to reflect local norms"] },
+  { heading: "Use private gatherings to support wider reach", body: "A global network does not require every event to be global. A private dinner in one city can strengthen a worldwide network when members share an identity, follow common standards and can access cross-market relationships, research or role-based groups. Intimacy is a format choice, not a limit on network reach." },
+  { heading: "Combine in-person, digital and hybrid formats", body: "Use each channel for what it does well. In-person gatherings support depth. Digital briefings and peer groups maintain continuity. Asynchronous notes and research connect members who cannot attend. Hybrid meetings should be used selectively because remote participants often receive an inferior experience.", points: ["Regional dinners and roundtables", "Role-based digital peer groups", "Global research briefings", "Member requests and introductions", "Asynchronous regional insight summaries"] },
+  { heading: "Manage time zones and cadence", body: "Do not center every global interaction on one headquarters. Rotate live session times, publish the full schedule early, offer regional repetitions where useful and distinguish synchronous programs from materials members can use on demand. Track who is persistently excluded by the calendar." },
+  { heading: "Adapt to culture without lowering standards", body: "Participation norms, hierarchy, directness, hospitality and attitudes toward public visibility differ across markets. Regional hosts should adapt facilitation and communication while preserving shared rules for member fit, confidentiality, consent, sponsorship and respectful conduct." },
+  { heading: "Handle cross-border introductions responsibly", body: "Make introductions only with a relevant reason and consent from both parties. Share the minimum context needed. Record professional preferences rather than sensitive personal details. When data or communications cross jurisdictions, obtain qualified privacy and legal guidance.", points: ["Confirm the purpose", "Ask both members for consent", "State why the match is relevant", "Avoid forwarding private records", "Provide a graceful way to decline", "Review retention and deletion practices"] },
+  { heading: "Select regional partners and sponsors", body: "Choose partners for audience credibility, operating reliability and alignment with member value. A partner should not gain automatic access to members or influence over editorial findings. Define data, invitation, branding, speaking and follow-up rights in writing." },
+  { heading: "Measure global reach and local value", body: "Separate network reach from active participation. Review participation by market, repeat attendance, cross-market introductions, member contribution, regional retention and realized outcomes. Compare regions carefully because cadence, maturity and format will differ." },
+  { heading: "Prevent geographic fragmentation", body: "Fragmentation begins when chapters operate as unrelated brands or members cannot access value beyond their city. Use shared onboarding, host training, research, member standards and cross-market programming to create connective tissue without forcing every region into the same calendar." },
+  { heading: "Launch and expansion checklist", body: "Expand only after the member promise and operating cadence work in the first market.", points: ["Validate demand with qualified leaders in the target region", "Appoint and train a credible local convener", "Map cultural, privacy and event requirements", "Define central and regional decision rights", "Run a small pilot with explicit feedback", "Connect the pilot to wider research or introductions", "Review member fit and sponsor behavior", "Scale only when local participation is repeatable"] },
+];
+globalGuide.faq = [
+  { question: "Does a global executive network need global events?", answer: "No. Regional events can be part of a globally connected network when members share an identity, standards and access to cross-market value." },
+  { question: "When should a community expand into another market?", answer: "Expand after the core member promise, admission criteria, hosting method and cadence are repeatable, and after qualified leaders in the new market validate local demand." },
+  { question: "Should every regional chapter use the same format?", answer: "No. Standards should be consistent, but formats should adapt to local business culture, member needs, scheduling and venue norms." },
+  { question: "How do global networks avoid becoming mailing lists?", answer: "Create recurring member-to-member value through regional gatherings, peer groups, relevant introductions, shared research and clear participation expectations." },
+];
+
+const comparisonPage = pages.find(page => page.slug === "local-executive-community-vs-global-executive-network")!;
+comparisonPage.comparison = [
+  { criterion: "Geographic reach", local: "One city or region", global: "Multiple markets connected by one identity" },
+  { criterion: "Relationship depth", local: "Frequent in-person contact can deepen ties", global: "Depth varies and is often built in regional or role groups" },
+  { criterion: "Member diversity", local: "Shared market context", global: "Wider sector, culture and market perspectives" },
+  { criterion: "Event logistics", local: "Simpler travel and scheduling", global: "Travel, time zones and multiple calendars" },
+  { criterion: "Cultural complexity", local: "Fewer variations to manage", global: "Communication and participation norms differ" },
+  { criterion: "Sponsorship", local: "Regional budgets and relationships", global: "Central agreements plus regional relevance" },
+  { criterion: "Introductions", local: "Proximity supports repeat contact", global: "Context and consent matter more across markets" },
+  { criterion: "Digital infrastructure", local: "Helpful but not always central", global: "Required for continuity and discovery" },
+  { criterion: "Governance", local: "Compact decision structure", global: "Central standards with regional authority" },
+  { criterion: "Research potential", local: "Deep market-specific insight", global: "Cross-market comparison and shared themes" },
+  { criterion: "Brand recognition", local: "High relevance in one market", global: "Broader identity with variable local awareness" },
+  { criterion: "Member retention", local: "Supported by regular proximity", global: "Depends on useful local and cross-market value" },
+  { criterion: "Operating cost", local: "Concentrated team and event costs", global: "Hosts, travel, systems and localization" },
+  { criterion: "Expansion risk", local: "Limited geographic upside", global: "Fragmentation and inconsistent standards" },
+];
+comparisonPage.sections = [
+  { heading: "The models are not mutually exclusive", body: "A strong global executive network often combines global reach with local depth. Members may identify with the wider network while building their strongest relationships through regional gatherings, functional peer groups and recurring smaller formats." },
+  { heading: "Choose local when depth is the immediate priority", body: "A local model is often the right starting point when members share a market, can meet regularly and need strong contextual relevance. It lets the organizer learn how member fit, facilitation and cadence work before taking on expansion complexity." },
+  { heading: "Choose global when cross-market value is real", body: "A global model is justified when members benefit from relationships, insight or opportunities across markets. International branding by itself is not enough. The operating system must help members find relevant people and knowledge beyond their home region." },
+  { heading: "Use a connected regional model", body: "Many communities should use a connected regional model: one identity and trust standard, multiple local conveners, regional programs and a small number of shared global experiences. This gives members proximity without limiting the network to one market." },
+  { heading: "Decision checklist", body: "Choose the simplest model that can fulfill the member promise.", points: ["Where is the member problem concentrated?", "How often must members meet to create value?", "Is cross-market diversity useful or merely impressive?", "Can the team support regional hosts and data practices?", "Which standards must remain global?", "Which formats should be locally adapted?"] },
+];
+comparisonPage.faq = [
+  { question: "Is a global network better than a local community?", answer: "No. The better model is the one that fulfills a clear member need. Local communities can create greater relationship depth, while global networks can create wider perspective and cross-market value." },
+  { question: "Can a local community become global?", answer: "Yes, but it should expand only after its member promise, selection standards and operating cadence are repeatable." },
+  { question: "Can members belong globally but participate locally?", answer: "Yes. This connected regional model is often the most practical way to combine global identity with strong relationships." },
+];
 export const featured = pages.slice(0,4);
 export const groups = [
   { number:"01", name:"Principles", id:"principles", description:"Norms that protect trust, contribution and audience quality." },
