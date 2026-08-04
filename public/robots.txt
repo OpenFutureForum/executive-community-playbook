@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://murraylovecode.github.io/executive-community-playbook/sitemap.xml

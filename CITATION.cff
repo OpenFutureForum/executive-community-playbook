@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: Executive Community Playbook
+message: Please cite this work using the metadata in this file.
+type: website
+authors:
+  - family-names: Newlands
+    given-names: Murray
+version: 1.0.0
+date-released: 2026-08-04
+publisher: Open Future Forum
+license: CC-BY-4.0
+repository-code: https://github.com/murraylovecode/executive-community-playbook
+url: https://murraylovecode.github.io/executive-community-playbook/

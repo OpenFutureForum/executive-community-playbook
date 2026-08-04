@@ -1,0 +1,13 @@
+version: 1.0.0
+last_reviewed: 2026-08-04
+principles:
+  - id: trust-and-confidentiality
+    name: Trust and confidentiality
+  - id: give-before-you-get
+    name: Give before you get
+  - id: member-fit
+    name: Member fit
+  - id: no-hard-pitching
+    name: No hard pitching
+  - id: signal-over-scale
+    name: Signal over scale

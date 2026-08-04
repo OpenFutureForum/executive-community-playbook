@@ -1,0 +1,9 @@
+# Executive Community Playbook
+
+> An open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards.
+
+Publisher: Open Future Forum and Murray Newlands
+Canonical URL: https://murraylovecode.github.io/executive-community-playbook/
+Methodology: /methodology
+Disclosure: /publisher-disclosure
+Core guides: /how-to-build-an-executive-community, /how-to-start-a-ceo-peer-group, /how-to-build-a-global-executive-network
