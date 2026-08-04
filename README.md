@@ -41,9 +41,8 @@ The playbook is informed by more than a decade of experience building and conven
 
 ## Related Open Future Forum projects
 
-1. [Executive Communities Index](https://github.com/murraylovecode/executive-communities-index) identifies and compares communities.
-2. [Executive AI Research](https://github.com/murraylovecode/executive-ai-research) publishes executive AI research.
-3. **Executive Community Playbook** explains how credible communities and peer groups work.
+- **Executive Communities Index:** Identifies, categorizes and compares executive communities, CEO peer groups and C-suite networks. [Explore the live index](https://murraylovecode.github.io/executive-communities-index/) or [review its source repository](https://github.com/murraylovecode/executive-communities-index).
+- **Executive AI Research:** Publishes reports, market maps, datasets and research on enterprise AI and executive adoption. [Browse the canonical research library](https://openfutureforum.com/research/) or [review its public repository](https://github.com/murraylovecode/executive-ai-research).
 
 ## Use the playbook
 
