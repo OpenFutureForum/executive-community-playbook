@@ -111,23 +111,30 @@ for (const [slug, override] of Object.entries(depth)) {
   const page = pages.find(item => item.slug === slug);
   if (page) Object.assign(page, override);
 }
-globalGuide.relatedTemplate = "host-briefing";
+globalGuide.relatedTemplate = "community-host-briefing-template";
 globalGuide.sources = [{label:"ICO data protection principles",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/",note:"Primary guidance relevant to cross-border member data practices."}];
 pages.push({
-  slug:"sources-and-references",title:"Sources and References",category:"Project documentation",group:"Project",summary:"Primary references used for confidentiality, privacy, accessibility, sponsorship disclosure and editorial practice.",intro:"The playbook cites external sources when they support a specific factual claim, rule or standard; sources are not added merely for decoration.",
+  slug:"sources-and-references",title:"Sources and References",category:"Project documentation",group:"Project",summary:"Primary references used for governance, research, confidentiality, privacy, consent, accessibility and disclosure.",intro:"The playbook cites external sources when they support a specific factual claim, rule or standard; sources are not added merely for decoration.",
   sections:[
     {heading:"Source selection policy",body:"Primary institutional sources are preferred for rules, standards and formal definitions. Public sources are assessed for authority, relevance and currency. Publisher operating experience and editorial judgment are labeled separately from external evidence."},
     {heading:"Confidentiality and the Chatham House Rule",body:"Chatham House defines its Rule and explains that it permits use of information while protecting the identity and affiliation of speakers and participants. The Rule is not legally binding and is different from a stricter off-the-record agreement."},
     {heading:"Privacy and data protection",body:"The UK Information Commissioner’s Office explains core data protection principles including lawfulness, purpose limitation, data minimisation, accuracy, retention, security and accountability. Community operators should obtain qualified guidance for obligations in their jurisdictions."},
     {heading:"Accessibility",body:"The World Wide Web Consortium publishes WCAG 2.2 as a Recommendation for making web content more accessible. This project uses semantic structure, visible focus states, responsive tables and reduced-motion support as practical implementation measures."},
     {heading:"Sponsorship disclosure",body:"The U.S. Federal Trade Commission’s Endorsement Guides explain that material connections affecting how people evaluate an endorsement should be disclosed. Operators should seek jurisdiction-specific advice for their own promotional activity."},
-    {heading:"Research and survey claims",body:"Research pages should identify the sample, recruitment, dates, questions, method and limitations. Community samples should not be presented as representative of all executives without supporting evidence. Private participation does not create automatic consent to quote or publish."}
+    {heading:"Association governance and conflicts",body:"ASAE’s association ethics guidance covers conduct and conflict-of-interest practices. Community and advisory formats should state decision rights, disclosure duties and how conflicts are managed."},
+    {heading:"Advisory boards",body:"The UK government’s board-member conduct code provides a primary governance reference for duties and conflicts. An advisory board must also state clearly that its authority differs from a statutory or fiduciary board."},
+    {heading:"Research ethics, surveys and consent",body:"AAPOR publishes survey-research best practices, the Belmont Report provides a foundational human-subject ethics framework, and the ICO explains valid consent. Community research should identify its sample, method and limits and should not treat event attendance as permission to quote or publish."}
   ],
   sources:[
     {label:"Chatham House Rule",url:"https://www.chathamhouse.org/about-us/chatham-house-rule",note:"Official definition and explanation."},
     {label:"ICO data protection principles",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/",note:"Official organizational guidance."},
     {label:"WCAG 2.2",url:"https://www.w3.org/TR/WCAG22/",note:"W3C Recommendation."},
-    {label:"FTC Endorsement Guides",url:"https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements",note:"Official U.S. advertising guidance."}
+    {label:"FTC Endorsement Guides",url:"https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements",note:"Official U.S. advertising guidance."},
+    {label:"ASAE Ethics Toolkit for Associations",url:"https://www.asaecenter.org/-/media/models-and-samples/6/6/1/5/ASAE-Ethics-Toolkit-March-2025.ashx",note:"Primary association-sector ethics and conflicts guidance."},
+    {label:"AAPOR Best Practices for Survey Research",url:"https://aapor.org/standards-and-ethics/best-practices/",note:"Primary professional survey-methodology guidance."},
+    {label:"The Belmont Report",url:"https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html",note:"Primary research-ethics framework."},
+    {label:"ICO guidance on consent",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/",note:"Primary regulator guidance on consent."},
+    {label:"Code of Conduct for Board Members of Public Bodies",url:"https://www.gov.uk/government/publications/code-of-conduct-for-board-members-of-public-bodies",note:"Primary governance and conflicts reference."}
   ]
 });
 for (const template of templates) {

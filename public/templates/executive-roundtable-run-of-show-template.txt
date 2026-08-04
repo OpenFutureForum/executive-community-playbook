@@ -1,6 +1,6 @@
 [ROUNDTABLE NAME] Run of Show
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Duration: [MINUTES]
 Facilitator: [NAME]

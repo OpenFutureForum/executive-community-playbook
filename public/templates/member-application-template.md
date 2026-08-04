@@ -1,8 +1,8 @@
-<!-- Executive Community Member Application | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Member Application | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY NAME] Member Application
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 
 ## Professional context

@@ -1,8 +1,8 @@
-<!-- Executive Dinner Run of Show | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Dinner Run of Show | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [DINNER NAME] Run of Show
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Host: [NAME]
 Venue: [VENUE]

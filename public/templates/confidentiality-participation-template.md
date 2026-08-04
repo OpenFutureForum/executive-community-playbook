@@ -1,8 +1,8 @@
-<!-- Confidentiality and Participation Statement | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Confidentiality and Participation Statement | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY NAME] Confidentiality and Participation Statement
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 
 This session is intended to support candid professional discussion. Participants may [USE INFORMATION WITHOUT ATTRIBUTION / NOT SHARE SESSION CONTENT] according to the rule stated by the host.

@@ -13,6 +13,11 @@ const sourceLibrary = {
   privacy: { label: "ICO data protection principles", url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/", note: "Primary guidance on lawfulness, purpose limitation, data minimisation, accuracy, retention, security and accountability." },
   access: { label: "Web Content Accessibility Guidelines 2.2", url: "https://www.w3.org/TR/WCAG22/", note: "W3C Recommendation for accessible web content." },
   disclosure: { label: "FTC Endorsement Guides", url: "https://www.ftc.gov/news-events/topics/truth-advertising/advertisement-endorsements", note: "Primary U.S. guidance on truthful endorsements and disclosure of material connections." },
+  governance: { label: "ASAE Ethics Toolkit for Associations", url: "https://www.asaecenter.org/-/media/models-and-samples/6/6/1/5/ASAE-Ethics-Toolkit-March-2025.ashx", note: "Primary association-sector guidance on ethics, governance and conflict-of-interest practices." },
+  survey: { label: "AAPOR Best Practices for Survey Research", url: "https://aapor.org/standards-and-ethics/best-practices/", note: "Primary professional guidance on survey design, sampling, fieldwork, disclosure and reporting." },
+  ethics: { label: "The Belmont Report", url: "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html", note: "Primary U.S. research-ethics framework covering respect for persons, beneficence and justice." },
+  consent: { label: "ICO guidance on consent", url: "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/", note: "Primary regulator guidance on valid, specific, informed and withdrawable consent." },
+  boards: { label: "Code of Conduct for Board Members of Public Bodies", url: "https://www.gov.uk/government/publications/code-of-conduct-for-board-members-of-public-bodies", note: "Primary governance guidance on board-member conduct, public duties and conflicts; advisory groups should define where their authority differs." },
 };
 
 export const depth: Record<string, DepthOverride> = {
@@ -47,7 +52,7 @@ export const depth: Record<string, DepthOverride> = {
       {heading:"Sponsors and commercial conduct",body:"Define sponsor rights, disclosure, category boundaries, attendee-data restrictions, demonstrations and follow-up consent. The no-hard-pitching rule should apply to members, guests, hosts and sponsors."},
       {heading:"Complaints, removal and review",body:"Name a private reporting route, decision owner, proportionate responses and appeal or review process. Review the charter on a published cadence and tell members before material changes take effect."},
       {heading:"Charter adoption checklist",body:"Before adoption, ask founding members to test whether each rule is understandable, observable and enforceable. Identify the owner for every process and link the current version from invitations and onboarding."}
-    ],sources:[sourceLibrary.chatham,sourceLibrary.privacy]
+    ],sources:[sourceLibrary.chatham,sourceLibrary.privacy,sourceLibrary.governance,sourceLibrary.boards]
   },
   "glossary": {
     sections:[
@@ -92,7 +97,7 @@ export const depth: Record<string, DepthOverride> = {
     ]
   },
   "how-to-build-an-executive-community": {
-    relatedTemplate: "community-charter",
+    relatedTemplate: "community-charter-template",
     sections: [
       { heading: "When a community is the right model", body: "Use a community when the same qualified people benefit from knowing one another over time. A contact list distributes messages. An audience consumes content. An event series delivers programs. A community adds a durable identity, member standards and repeated member-to-member value. If the problem can be solved by one webinar or newsletter, community overhead may not be justified." },
       { heading: "Write an audience thesis", body: "An audience thesis states who belongs, the decisions they share and why peer relationships improve those decisions. ‘Senior leaders’ is too broad. ‘CFOs of private equity-backed software companies preparing for refinancing’ gives an operator something to select against. Test the thesis with prospective members who have no incentive to flatter the idea.", points: ["Role and decision authority", "Company stage, ownership or scale", "Geography when context matters", "Shared decisions or transitions", "Conflicts that would reduce candor", "Experience members can contribute"] },
@@ -116,7 +121,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "how-to-start-a-ceo-peer-group": {
-    relatedTemplate: "community-charter",
+    relatedTemplate: "community-charter-template",
     sections: [
       { heading: "Which CEOs belong together?", body: "Peer status depends on the decisions members carry, not the prestige of their titles. Match CEOs whose businesses create comparable leadership weight. A founder running a newly funded company may need a different room from the hired CEO of a mature public company. Both can benefit from cross-stage perspective, but a large mismatch makes advice difficult to apply." },
       { heading: "Use company stage and scale deliberately", body: "Revenue, funding stage, employee count, ownership and international footprint can all shape the CEO role. Do not turn one number into an absolute gate. Use it to identify whether members face sufficiently comparable questions about capital, boards, talent, operating systems and risk." },
@@ -139,7 +144,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "private-executive-dinner-playbook": {
-    relatedTemplate: "executive-dinner-run-of-show",
+    relatedTemplate: "executive-dinner-run-of-show-template",
     sections: [
       { heading: "What the format is for", body: "A private executive dinner supports one extended, relevant conversation among well-matched peers. It works when participants need context, judgment and relationships more than presentations. It is not a disguised sales dinner, a reward for prospects or a panel compressed around a table." },
       { heading: "Compose the room", body: "Select for relevance, contribution and compatible seniority. Eight to fourteen guests often allows one-table conversation, although room shape, facilitation and topic can support a different range. Count hosts and sponsors when judging capacity. Avoid filling seats with people who cannot participate as peers." },
@@ -160,7 +165,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "ceo-communities": {
-    relatedTemplate: "member-application",
+    relatedTemplate: "member-application-template",
     sections: [
       { heading: "What Is a CEO Community?", body: "A CEO community is a structured network for chief executives who need peers for decisions they cannot fully delegate or discuss inside their companies. It may include peer groups, private forums, research briefings and carefully matched introductions." },
       { heading: "Who belongs and who may not fit", body: "Members should carry final enterprise responsibility. Founder-CEOs, professional CEOs and division CEOs may need separate groups when board authority, capital structure or operating scope differs. Advisors, investors and vendors can add value in defined formats, but they are not automatically CEO peers." },
@@ -175,7 +180,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "cfo-communities": {
-    relatedTemplate: "member-application",
+    relatedTemplate: "member-application-template",
     sections: [
       { heading: "What Is a CFO Community?", body: "A CFO community connects senior finance leaders for peer exchange on capital, reporting, risk, systems, talent and the CFO’s expanding strategic role. A useful room distinguishes between growth-stage, public-company and private equity-backed finance mandates." },
       { heading: "Who belongs and who may not fit", body: "Match members by decision authority and operating context. A first CFO building controls has different needs from a public-company CFO managing earnings and audit committees. Controllers, bankers, auditors and software providers may belong in specialist sessions, but a peer-only CFO forum needs explicit boundaries." },
@@ -190,7 +195,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "cmo-communities": {
-    relatedTemplate: "member-application",
+    relatedTemplate: "member-application-template",
     sections: [
       { heading: "What Is a CMO Community?", body: "A CMO community is a peer network for senior marketing leaders responsible for brand, demand, product marketing, growth, customer insight and marketing capability. The agenda must reflect company stage because a scale-up growth mandate differs from global portfolio stewardship." },
       { heading: "Member fit", body: "Distinguish enterprise CMOs, growth leaders, business-unit marketing heads and founder-led marketing roles. Agency executives and technology providers can contribute expertise, but should not outnumber operating leaders or treat the community as a business-development channel." },
@@ -205,7 +210,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "ciso-communities": {
-    relatedTemplate: "confidentiality-statement",
+    relatedTemplate: "confidentiality-participation-template",
     sections: [
       { heading: "What Is a CISO Community?", body: "A CISO community is a trusted peer network for senior security leaders responsible for enterprise risk, resilience, governance and board communication. It is not a channel for exchanging operational details that could create security, regulatory or legal risk." },
       { heading: "Who belongs and what requires separation", body: "Match enterprise security authority, sector context and reporting responsibility. Security vendors, consultants and investors can contribute in disclosed expert formats. Peer-only sessions should remain peer-only, particularly when members discuss incidents, board pressure or control failures." },
@@ -220,7 +225,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "ai-executive-communities": {
-    relatedTemplate: "member-application",
+    relatedTemplate: "member-application-template",
     sections: [
       { heading: "What Is an AI Executive Community?", body: "An AI executive community connects leaders accountable for enterprise AI strategy, deployment, governance, investment and organizational change. It differs from a practitioner group focused on model development, engineering techniques or tool-level troubleshooting." },
       { heading: "Choose the executive mix", body: "The right mix may include CEOs, CIOs, CTOs, data leaders, security leaders, CFOs, legal leaders, HR leaders and business-unit owners. Define whether the group is cross-functional or role-specific. Do not admit participants solely because their company sells AI." },
@@ -235,7 +240,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "private-equity-executive-communities": {
-    relatedTemplate: "conflict-of-interest-disclosure",
+    relatedTemplate: "conflict-of-interest-disclosure-template",
     sections: [
       { heading: "What Is a Private Equity Executive Community?", body: "A private equity executive community connects fund professionals, operating partners and portfolio-company leaders around value creation, leadership and responsible professional relationships. Different participant types should not be treated as interchangeable peers." },
       { heading: "Separate fund and portfolio perspectives", body: "Deal teams focus on investment decisions and portfolio oversight. Operating partners work across companies. CEOs and CFOs carry company accountability. Use separate peer sessions when power dynamics or confidentiality would limit candor, then use mixed formats for shared operating questions." },
@@ -249,7 +254,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "sponsoring-an-executive-community": {
-    relatedTemplate: "sponsor-agreement-framework",
+    relatedTemplate: "sponsor-agreement-framework-template",
     sections: [
       { heading: "Why communities accept sponsors", body: "Sponsorship can fund venues, access, research, production and specialist expertise. It can also distort member selection and discussion. Accept sponsorship only when the partner understands the member promise and the operator can enforce boundaries." },
       { heading: "Member value and sponsor value", body: "Members should receive useful peers, content and relationships. Sponsors may seek credibility, learning and relevant relationships. Those objectives are compatible when participation is disclosed and consent-based. They are incompatible when a sponsor expects a captive pitch, hidden endorsement or unrestricted data." },
@@ -267,7 +272,7 @@ export const depth: Record<string, DepthOverride> = {
   },
 
   "executive-community-measurement": {
-    relatedTemplate: "community-health-scorecard",
+    relatedTemplate: "community-health-scorecard-template",
     sections: [
       { heading: "Measure the promise, not just the funnel", body: "Community measurement should show whether the intended people participate, trust the setting, build useful relationships and receive value over time. Registrations, audience size and social impressions describe reach. They do not prove community quality." },
       { heading: "Member fit", body: "Track the share of active participants who match published criteria, the relevance of role and company stage, and the peer-to-provider balance. Review exceptions individually. A high attendance number can hide a room in which few people recognize one another as peers." },
@@ -294,7 +299,7 @@ export const depth: Record<string, DepthOverride> = {
       { heading: "The Open Future Forum case study", body: "The case study is a publisher-authored operating example. It can show how one global executive community applies its model, but it is not independent validation and should not be generalized without considering audience, geography, resources and incentives." },
       { heading: "What this methodology does not claim", body: "The playbook is not independent academic research, a systematic review, legal advice or an official industry standard. It does not claim universal results. Templates require adaptation and professional review where legal, privacy or regulatory obligations apply." },
     ],
-    sources: [sourceLibrary.chatham, sourceLibrary.privacy, sourceLibrary.access, sourceLibrary.disclosure],
+    sources: [sourceLibrary.chatham, sourceLibrary.privacy, sourceLibrary.access, sourceLibrary.disclosure, sourceLibrary.governance, sourceLibrary.survey, sourceLibrary.ethics, sourceLibrary.consent, sourceLibrary.boards],
   },
 
   "open-future-forum-case-example": {
@@ -315,11 +320,17 @@ export const depth: Record<string, DepthOverride> = {
       { heading: "What may not transfer", body: "Open Future Forum’s brand, founder relationships, Silicon Valley roots, global network and mix of executive and investor audiences are specific to the organization. A local association, corporate community or paid peer group may need different funding, governance and selection systems." },
       { heading: "Limitations", body: "This case study does not provide independent performance evidence, comparative benchmarks or audited outcomes. It should be read as a transparent operating example from the project’s publisher." },
     ],
-    sources: [],
+    sources: [
+      {label:"Official OFF source: Open Future Forum",url:"https://openfutureforum.com/",note:"Publisher-controlled source for OFF’s stated identity, founding date, programs and terminology."},
+      {label:"Official OFF source: Forum Select",url:"https://openfutureforum.com/forum-select",note:"Publisher-controlled description of the private, invitation-only format."},
+      {label:"Official OFF source: Forum Events",url:"https://openfutureforum.com/forum-events",note:"Publisher-controlled description of the open event format."},
+      {label:"External event listing: Eventbrite",url:"https://www.eventbrite.com/e/office-hours-with-murray-newlands-founder-of-open-future-forum-tickets-1991427662747",note:"Third-party event-platform listing that corroborates the organization, founder relationship and 2019 founding claim; it is not independent performance evaluation."},
+      {label:"External event listing: Luma",url:"https://luma.com/RSM_events",note:"Third-party event listing that identifies Murray Newlands as OFF’s founder and describes its executive-gathering activity; organizer-supplied copy is not independent validation."}
+    ],
   },
 
   "research-from-executive-communities": {
-    relatedTemplate: "member-feedback-survey",
+    relatedTemplate: "member-feedback-survey-template",
     sections: [
       { heading: "What community research can do", body: "A community can identify shared questions, collect first-party survey responses, conduct qualitative interviews and publish useful synthesis. Research should serve a defined question and return value to participants rather than convert private access into promotional claims." },
       { heading: "Separate discussion from research", body: "Attendance at an event is not automatic consent to be studied or quoted. Explain when a survey, interview or discussion will inform a publication, how responses will be used and whether attribution is possible. Provide a meaningful choice." },
@@ -328,6 +339,6 @@ export const depth: Record<string, DepthOverride> = {
       { heading: "Manage sponsor influence", body: "Disclose who funded the work. Sponsors may help identify useful questions, but editorial conclusions should not be contingent on favorable findings. Keep commercial follow-up separate from research participation." },
       { heading: "Useful outputs", body: "Outputs may include insight briefs, benchmark reports, market maps and structured datasets when the underlying evidence supports them. Label publisher analysis and external sources separately. Preserve version and citation information." },
     ],
-    sources: [sourceLibrary.privacy],
+    sources: [sourceLibrary.privacy, sourceLibrary.consent, sourceLibrary.survey, sourceLibrary.ethics],
   },
 };

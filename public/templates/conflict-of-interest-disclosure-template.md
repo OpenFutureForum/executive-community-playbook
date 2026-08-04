@@ -1,8 +1,8 @@
-<!-- Community Conflict of Interest Disclosure | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Community Conflict of Interest Disclosure | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY] Conflict of Interest Disclosure
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Name: [NAME]
 Role in community: [MEMBER / HOST / EDITOR / SPONSOR / SPEAKER]

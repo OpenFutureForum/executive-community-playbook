@@ -1,8 +1,8 @@
-<!-- Executive Community Health Scorecard | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Health Scorecard | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY] Health Scorecard
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Period: [MONTH / QUARTER]
 

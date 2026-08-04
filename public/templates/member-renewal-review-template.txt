@@ -1,6 +1,6 @@
 [COMMUNITY] Member Renewal Review
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Member: [NAME]
 Reviewer: [NAME]

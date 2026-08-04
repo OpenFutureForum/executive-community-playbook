@@ -1,8 +1,8 @@
-<!-- Executive Community Member Feedback Survey | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Member Feedback Survey | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY] Member Feedback Survey
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 
 1. How relevant were the participants to your role and current decisions? [1–5]

@@ -1,8 +1,8 @@
-<!-- Executive Community Sponsor Agreement Framework | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Sponsor Agreement Framework | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # Sponsor Agreement Framework
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Parties: [COMMUNITY] and [SPONSOR]
 Term: [START] to [END]

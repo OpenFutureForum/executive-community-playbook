@@ -72,4 +72,4 @@ Run `npm test` before contributing. The test suite validates static output, meta
 
 ## Citation
 
-Newlands, Murray, and Open Future Forum. *Executive Community Playbook*. Version 1.0.0, 2026. https://murraylovecode.github.io/executive-community-playbook/
+Newlands, Murray, and Open Future Forum. *Executive Community Playbook*. Version 1.1.0, 2026. https://murraylovecode.github.io/executive-community-playbook/

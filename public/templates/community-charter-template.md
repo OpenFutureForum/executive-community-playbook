@@ -1,8 +1,8 @@
-<!-- Executive Community Charter Template | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Charter Template | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY NAME] Charter
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Owner: [NAME OR ROLE]
 

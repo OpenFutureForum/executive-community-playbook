@@ -1,8 +1,8 @@
-<!-- Sponsor Host Briefing | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Sponsor Host Briefing | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [PROGRAM] Sponsor Host Briefing
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Sponsor: [SPONSOR]
 Community lead: [NAME]

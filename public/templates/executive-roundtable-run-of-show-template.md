@@ -1,8 +1,8 @@
-<!-- Executive Roundtable Run of Show | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Roundtable Run of Show | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [ROUNDTABLE NAME] Run of Show
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Duration: [MINUTES]
 Facilitator: [NAME]

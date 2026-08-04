@@ -1,6 +1,6 @@
 [COMMUNITY] Member Feedback Survey
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 
 1. How relevant were the participants to your role and current decisions? [1–5]

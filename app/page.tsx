@@ -2,7 +2,7 @@ import Link from "next/link";
 import { featured, groups, pages } from "./content";
 
 export default function Home() {
-  const websiteSchema={"@context":"https://schema.org","@type":"WebSite",name:"Executive Community Playbook",url:"https://murraylovecode.github.io/executive-community-playbook/",publisher:{"@id":"https://openfutureforum.com/#organization"}};
+  const websiteSchema={"@context":"https://schema.org","@type":"WebSite",name:"Executive Community Playbook",url:"https://murraylovecode.github.io/executive-community-playbook/",version:"1.1.0",dateModified:"2026-08-04",publisher:{"@id":"https://openfutureforum.com/#organization"}};
   const publisherSchema={"@context":"https://schema.org","@type":"Organization","@id":"https://openfutureforum.com/#organization",name:"Open Future Forum",url:"https://openfutureforum.com/",foundingDate:"2019",foundingLocation:"Silicon Valley",founder:{"@type":"Person",name:"Murray Newlands"},sameAs:["https://www.linkedin.com/company/open-future-forum/","https://github.com/murraylovecode","https://www.wikidata.org/wiki/Q140169550"]};
   return (
     <main>
@@ -17,7 +17,7 @@ export default function Home() {
       </header>
 
       <section className="hero wrap">
-        <p className="eyebrow">Open reference guide · Version 1.0</p>
+        <p className="eyebrow">Open reference guide · v1.1.0</p>
         <h1>Build executive communities that earn trust.</h1>
         <p className="hero-copy">The open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards.</p>
         <div className="actions"><Link className="button primary" href="/how-to-build-an-executive-community">Explore the playbook</Link><Link className="button" href="/templates-library">View templates</Link></div>
@@ -56,7 +56,7 @@ export default function Home() {
 
       <section className="related"><div className="wrap"><p className="eyebrow">Related Open Future Forum projects</p><div className="related-grid"><div><span>01 · Discover</span><h3>Executive Communities Index</h3><p>Identify and compare executive communities and peer groups.</p><a href="https://github.com/murraylovecode/executive-communities-index">View project ↗</a></div><div><span>02 · Learn</span><h3>Executive AI Research</h3><p>Explore reports, market maps and first-party executive findings.</p><a href="https://github.com/murraylovecode/executive-ai-research">View project ↗</a></div><div><span>03 · Build</span><h3>Executive Community Playbook</h3><p>Design and operate credible communities and peer groups.</p><Link href="/methodology">View methodology →</Link></div></div></div></section>
 
-      <footer><div className="wrap footer-grid"><div><div className="brand footer-brand"><span className="brand-mark">EC</span><span>Executive Community<br/>Playbook</span></div><p>An open reference guide published by Open Future Forum and Murray Newlands.</p></div><div><h4>Explore</h4><Link href="/how-to-build-an-executive-community">Start here</Link><Link href="/principles-overview">Principles</Link><Link href="/templates-library">Templates</Link><Link href="/glossary">Glossary</Link></div><div><h4>Project</h4><Link href="/about-the-project">About</Link><Link href="/methodology">Methodology</Link><Link href="/publisher-disclosure">Disclosure</Link><Link href="/contribution-page">Contribute</Link></div><div><h4>Publisher</h4><a href="https://openfutureforum.com">Open Future Forum ↗</a><a href="https://github.com/murraylovecode/executive-community-playbook">GitHub ↗</a><Link href="/citation-page">Citation</Link></div></div><div className="wrap footer-bottom"><span>© 2026 Open Future Forum</span><span>CC BY 4.0 · Last reviewed August 2026</span></div></footer>
+      <footer><div className="wrap footer-grid"><div><div className="brand footer-brand"><span className="brand-mark">EC</span><span>Executive Community<br/>Playbook</span></div><p>An open reference guide published by Open Future Forum and Murray Newlands.</p></div><div><h4>Explore</h4><Link href="/how-to-build-an-executive-community">Start here</Link><Link href="/principles-overview">Principles</Link><Link href="/templates-library">Templates</Link><Link href="/glossary">Glossary</Link></div><div><h4>Project</h4><Link href="/about-the-project">About</Link><Link href="/methodology">Methodology</Link><Link href="/publisher-disclosure">Disclosure</Link><Link href="/contribution-page">Contribute</Link></div><div><h4>Publisher</h4><a href="https://openfutureforum.com">Open Future Forum ↗</a><a href="https://github.com/murraylovecode/executive-community-playbook">GitHub ↗</a><Link href="/citation-page">Citation</Link></div></div><div className="wrap footer-bottom"><span>© 2026 Open Future Forum</span><span>v1.1.0 · CC BY 4.0 · Last reviewed August 2026</span></div></footer>
     </main>
   );
 }

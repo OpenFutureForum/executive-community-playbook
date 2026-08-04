@@ -1,8 +1,8 @@
-<!-- Executive Community Host Briefing | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Host Briefing | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY NAME] Host Briefing
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Host: [NAME]
 Session: [DATE / FORMAT]

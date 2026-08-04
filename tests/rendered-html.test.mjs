@@ -25,14 +25,38 @@ test("exports core guides and publication assets", async () => {
   await Promise.all(files.map(file => access(new URL(file, root))));
 });
 
-test("contains direct definitions, disclosures and practical checklists", async () => {
+test("contains direct definitions, disclosures and topic-specific guidance", async () => {
   const html = await readFile(new URL("out/how-to-build-a-global-executive-network/index.html", root), "utf8");
   assert.match(html, /A global executive network connects senior leaders/);
-  assert.match(html, /Before you launch/);
+  assert.doesNotMatch(html, /Before you launch/);
   assert.match(html, /Publisher perspective/);
   assert.match(html, /not an official industry standard or legal advice/);
   assert.match(html, /Launch and expansion checklist/);
   assert.match(html, /FAQPage/);
+});
+
+test("omits the universal launch checklist from documentation and case pages", async () => {
+  for (const slug of ["methodology", "publisher-disclosure", "glossary", "open-future-forum-case-example"]) {
+    const html = await readFile(new URL(`out/${slug}/index.html`, root), "utf8");
+    assert.doesNotMatch(html, /Before you launch/);
+  }
+});
+
+test("uses page-appropriate structured data", async () => {
+  const expected = new Map([
+    ["how-to-build-an-executive-community", "HowTo"],
+    ["glossary", "DefinedTermSet"],
+    ["community-charter-template", "CreativeWork"],
+    ["templates-library", "ItemList"],
+    ["methodology", "Article"],
+    ["open-future-forum-case-example", "Article"],
+  ]);
+  for (const [slug, type] of expected) {
+    const html = await readFile(new URL(`out/${slug}/index.html`, root), "utf8");
+    const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(match => JSON.parse(match[1]));
+    assert.ok(scripts.some(schema => schema["@type"] === type), `${slug} should include ${type}`);
+    if (type === "DefinedTermSet") assert.ok(scripts.some(schema => schema.hasDefinedTerm?.every(term => term["@type"] === "DefinedTerm")));
+  }
 });
 
 test("exports the detailed local and global comparison", async () => {

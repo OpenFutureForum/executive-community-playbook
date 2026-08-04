@@ -1,8 +1,8 @@
-<!-- Executive Community Member Renewal Review | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Member Renewal Review | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [COMMUNITY] Member Renewal Review
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Member: [NAME]
 Reviewer: [NAME]

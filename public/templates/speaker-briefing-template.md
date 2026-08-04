@@ -1,8 +1,8 @@
-<!-- Executive Community Speaker Briefing | Version 1.1 | Reviewed 2026-08-04 -->
+<!-- Executive Community Speaker Briefing | Version 1.1.0 | Reviewed 2026-08-04 -->
 
 # [PROGRAM] Speaker Briefing
 
-Version: 1.1
+Version: 1.1.0
 Review date: [DATE]
 Speaker: [NAME]
 Host: [NAME]
