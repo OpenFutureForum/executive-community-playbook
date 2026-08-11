@@ -1,5 +1,7 @@
 # Executive Community Playbook
 
+[![Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/OpenFutureForum/executive-community-playbook/)](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/OpenFutureForum/executive-community-playbook)
+
 The Executive Community Playbook is an open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards. It is published by Open Future Forum and Murray Newlands.
 
 **Live site:** https://openfutureforum.github.io/executive-community-playbook/
@@ -68,6 +70,7 @@ Run `npm test` before contributing. The test suite validates static output, meta
 - [Publisher disclosure](DISCLOSURE.md)
 - Current version: 1.1.0 Content Depth Edition
 - Content license: [CC BY 4.0](LICENSE)
+- [Software Heritage archive](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/OpenFutureForum/executive-community-playbook)
 
 ## Citation
 
