@@ -72,7 +72,7 @@ export const depth: Record<string, DepthOverride> = {
   },
   "citation-page": {
     sections:[
-      {heading:"Recommended citation",body:"Newlands, Murray, and Open Future Forum. Executive Community Playbook. Version 1.1.0, 2026. https://murraylovecode.github.io/executive-community-playbook/."},
+      {heading:"Recommended citation",body:"Newlands, Murray, and Open Future Forum. Executive Community Playbook. Version 1.1.0, 2026. https://openfutureforum.github.io/executive-community-playbook/."},
       {heading:"Citing an individual guide",body:"Include the guide title, publisher, project title, version or review date, canonical URL and access date when required by the chosen style."},
       {heading:"Quoting and adapting",body:"Content is available under Creative Commons Attribution 4.0 unless an asset states otherwise. Give appropriate credit, link to the license and indicate changes. Do not imply publisher endorsement of an adaptation."},
       {heading:"Machine-readable citation",body:"The repository includes CITATION.cff for citation tools. Machine-readable page indexes provide canonical URLs and review dates. Repository history preserves the cited version until a formal archive is added."},

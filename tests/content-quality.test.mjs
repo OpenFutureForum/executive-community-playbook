@@ -3,7 +3,7 @@ import { access, readFile, readdir } from "node:fs/promises";
 import test from "node:test";
 
 const out = new URL("../out/", import.meta.url);
-const base = "https://murraylovecode.github.io/executive-community-playbook/";
+const base = "https://openfutureforum.github.io/executive-community-playbook/";
 const prohibited = [/What [a-z]+ communities means/i,/Validate the need with/i,/The model works when/i,/Start with the member problem/i,/Draft a one-page charter/i,/\bDelve\b/i,/\bTapestry\b/i,/\bRealm\b/i,/\bGame-changer\b/i,/Unlock the power of/i,/In today.?s fast-paced world/i,/In an ever-evolving landscape/i];
 
 async function guideFiles(){const names=await readdir(out,{withFileTypes:true});const files=[];for(const item of names){if(!item.isDirectory()||item.name.startsWith("_")||item.name==="templates"||item.name==="404")continue;const entry={slug:item.name,url:new URL(`${item.name}/index.html`,out)};try{await access(entry.url);files.push(entry)}catch{}}return files}

@@ -2,7 +2,7 @@
 
 The Executive Community Playbook is an open reference guide for designing and operating executive communities, global executive networks, CEO peer groups, C-suite forums, private executive dinners and advisory boards. It is published by Open Future Forum and Murray Newlands.
 
-**Live site:** https://murraylovecode.github.io/executive-community-playbook/
+**Live site:** https://openfutureforum.github.io/executive-community-playbook/
 
 ![Executive Community Playbook preview](public/og.png)
 
@@ -16,16 +16,16 @@ The Executive Community Playbook is an open reference guide for designing and op
 
 ## Key guides
 
-- [How to Build an Executive Community](https://murraylovecode.github.io/executive-community-playbook/how-to-build-an-executive-community/)
-- [How to Start a CEO Peer Group](https://murraylovecode.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/)
-- [How to Build a Global Executive Network](https://murraylovecode.github.io/executive-community-playbook/how-to-build-a-global-executive-network/)
-- [Private Executive Dinner Playbook](https://murraylovecode.github.io/executive-community-playbook/private-executive-dinner-playbook/)
-- [Sponsoring an Executive Community](https://murraylovecode.github.io/executive-community-playbook/sponsoring-an-executive-community/)
-- [Executive Community Measurement](https://murraylovecode.github.io/executive-community-playbook/executive-community-measurement/)
+- [How to Build an Executive Community](https://openfutureforum.github.io/executive-community-playbook/how-to-build-an-executive-community/)
+- [How to Start a CEO Peer Group](https://openfutureforum.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/)
+- [How to Build a Global Executive Network](https://openfutureforum.github.io/executive-community-playbook/how-to-build-a-global-executive-network/)
+- [Private Executive Dinner Playbook](https://openfutureforum.github.io/executive-community-playbook/private-executive-dinner-playbook/)
+- [Sponsoring an Executive Community](https://openfutureforum.github.io/executive-community-playbook/sponsoring-an-executive-community/)
+- [Executive Community Measurement](https://openfutureforum.github.io/executive-community-playbook/executive-community-measurement/)
 
 ## Templates
 
-The [templates library](https://murraylovecode.github.io/executive-community-playbook/templates-library/) provides 15 complete resources including the community charter, member application, invitation, confidentiality statement, sponsor agreement framework, host and speaker briefings, dinner and roundtable run of show, feedback survey, health scorecard, renewal review and conflict disclosure. Every template is copyable and downloadable as Markdown and text.
+The [templates library](https://openfutureforum.github.io/executive-community-playbook/templates-library/) provides 15 complete resources including the community charter, member application, invitation, confidentiality statement, sponsor agreement framework, host and speaker briefings, dinner and roundtable run of show, feedback survey, health scorecard, renewal review and conflict disclosure. Every template is copyable and downloadable as Markdown and text.
 
 ## Who it is for
 
@@ -41,12 +41,12 @@ The playbook is informed by more than a decade of experience building and conven
 
 ## Related Open Future Forum projects
 
-- **Executive Communities Index:** Identifies, categorizes and compares executive communities, CEO peer groups and C-suite networks. [Explore the live index](https://murraylovecode.github.io/executive-communities-index/) or [review its source repository](https://github.com/murraylovecode/executive-communities-index).
-- **Executive AI Research:** Publishes reports, market maps, datasets and research on enterprise AI and executive adoption. [Browse the canonical research library](https://openfutureforum.com/research/) or [review its public repository](https://github.com/murraylovecode/executive-ai-research).
+- **Executive Communities Index:** Identifies, categorizes and compares executive communities, CEO peer groups and C-suite networks. [Explore the live index](https://openfutureforum.github.io/executive-communities-index/) or [review its source repository](https://github.com/OpenFutureForum/executive-communities-index).
+- **Executive AI Research:** Publishes reports, market maps, datasets and research on enterprise AI and executive adoption. [Browse the canonical research library](https://openfutureforum.com/research/) or [review its public repository](https://github.com/OpenFutureForum/executive-ai-research).
 
 ## Use the playbook
 
-Start with [How to Build an Executive Community](https://murraylovecode.github.io/executive-community-playbook/how-to-build-an-executive-community), use the [templates](https://murraylovecode.github.io/executive-community-playbook/templates-library), and adapt the guidance to your audience, format, market and applicable law.
+Start with [How to Build an Executive Community](https://openfutureforum.github.io/executive-community-playbook/how-to-build-an-executive-community), use the [templates](https://openfutureforum.github.io/executive-community-playbook/templates-library), and adapt the guidance to your audience, format, market and applicable law.
 
 ## Local development
 
@@ -61,9 +61,9 @@ Run `npm test` before contributing. The test suite validates static output, meta
 
 ## Project information
 
-- [Methodology](https://murraylovecode.github.io/executive-community-playbook/methodology)
-- [Glossary](https://murraylovecode.github.io/executive-community-playbook/glossary)
-- [Citation guidance](https://murraylovecode.github.io/executive-community-playbook/citation-page)
+- [Methodology](https://openfutureforum.github.io/executive-community-playbook/methodology)
+- [Glossary](https://openfutureforum.github.io/executive-community-playbook/glossary)
+- [Citation guidance](https://openfutureforum.github.io/executive-community-playbook/citation-page)
 - [Contributing](CONTRIBUTING.md)
 - [Publisher disclosure](DISCLOSURE.md)
 - Current version: 1.1.0 Content Depth Edition
@@ -71,4 +71,4 @@ Run `npm test` before contributing. The test suite validates static output, meta
 
 ## Citation
 
-Newlands, Murray, and Open Future Forum. *Executive Community Playbook*. Version 1.1.0, 2026. https://murraylovecode.github.io/executive-community-playbook/
+Newlands, Murray, and Open Future Forum. *Executive Community Playbook*. Version 1.1.0, 2026. https://openfutureforum.github.io/executive-community-playbook/

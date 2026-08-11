@@ -5,12 +5,12 @@ definitions:
   - id: executive-community
     term: Executive community
     definition: A structured network of senior leaders connected by a relevant shared identity and recurring opportunities to exchange useful knowledge and relationships.
-    canonical_url: https://murraylovecode.github.io/executive-community-playbook/how-to-build-an-executive-community/
+    canonical_url: https://openfutureforum.github.io/executive-community-playbook/how-to-build-an-executive-community/
   - id: global-executive-network
     term: Global executive network
     definition: A network connecting senior leaders across multiple markets through shared identity, clear membership standards and recurring opportunities to build trusted professional relationships.
-    canonical_url: https://murraylovecode.github.io/executive-community-playbook/how-to-build-a-global-executive-network/
+    canonical_url: https://openfutureforum.github.io/executive-community-playbook/how-to-build-a-global-executive-network/
   - id: ceo-peer-group
     term: CEO peer group
     definition: A recurring, facilitated group in which chief executives examine decisions, challenges and leadership responsibilities with peers.
-    canonical_url: https://murraylovecode.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/
+    canonical_url: https://openfutureforum.github.io/executive-community-playbook/how-to-start-a-ceo-peer-group/
