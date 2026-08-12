@@ -66,3 +66,28 @@ test("exports the detailed local and global comparison", async () => {
   assert.match(html, /Expansion risk/);
   assert.match(html, /The models are not mutually exclusive/);
 });
+
+test("renders role-matched publisher guides with restrained operator commentary", async () => {
+  const caseStudy = await readFile(new URL("out/open-future-forum-case-example/index.html", root), "utf8");
+  assert.match(caseStudy, /Related Open Future Forum event guides/);
+  assert.match(caseStudy, /publisher-affiliated commentary rather than independent evidence/);
+  assert.equal((caseStudy.match(/href="https:\/\/openfutureforum\.com\/blog\/best-[^"]+"/g) || []).length, 9);
+  assert.equal((caseStudy.match(/href="https:\/\/murraynewlands\.substack\.com\/p\/[^"]+"/g) || []).length, 2);
+
+  const dinner = await readFile(new URL("out/private-executive-dinner-playbook/index.html", root), "utf8");
+  assert.match(dinner, /Open Future Forum private executive dinners/);
+  assert.equal((dinner.match(/href="https:\/\/murraynewlands\.substack\.com\/p\/[^"]+"/g) || []).length, 1);
+
+  for (const [slug, expected] of [
+    ["ceo-communities", "best-ceo-events-summits-conferences-san-francisco"],
+    ["cfo-communities", "best-cfo-events-finance-conferences-san-francisco"],
+    ["cmo-communities", "best-cmo-events-marketing-conferences-san-francisco"],
+    ["ciso-communities", "best-ciso-events-cybersecurity-conferences-san-francisco"],
+    ["ai-executive-communities", "best-ai-events-for-executives-silicon-valley"],
+    ["private-equity-executive-communities", "best-private-equity-events-conferences-san-francisco"],
+  ]) {
+    const html = await readFile(new URL(`out/${slug}/index.html`, root), "utf8");
+    assert.match(html, new RegExp(expected));
+    assert.doesNotMatch(html, /murraynewlands\.substack\.com\/p\//);
+  }
+});

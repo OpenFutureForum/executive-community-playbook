@@ -1,4 +1,6 @@
-export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: { heading: string; body: string; points?: string[] }[]; comparison?: { criterion: string; local: string; global: string }[]; faq?: { question: string; answer: string }[]; sources?: { label: string; url: string; note: string }[]; relatedTemplate?: string; template?: { content:string; instructions:string; relatedGuide:string } };
+export type PageLink = { label: string; url: string; note?: string };
+export type PageSection = { heading: string; body: string; points?: string[]; links?: PageLink[] };
+export type Page = { slug: string; title: string; category: string; group: string; summary: string; intro: string; sections: PageSection[]; comparison?: { criterion: string; local: string; global: string }[]; faq?: { question: string; answer: string }[]; sources?: { label: string; url: string; note: string }[]; relatedTemplate?: string; template?: { content:string; instructions:string; relatedGuide:string } };
 import { depth } from "./depth";
 import templates from "../data/templates.json";
 
@@ -110,6 +112,78 @@ comparisonPage.faq = [
 for (const [slug, override] of Object.entries(depth)) {
   const page = pages.find(item => item.slug === slug);
   if (page) Object.assign(page, override);
+}
+
+const appendSections = (slug: string, sections: PageSection[]) => {
+  const page = pages.find(item => item.slug === slug);
+  if (page) page.sections.push(...sections);
+};
+
+appendSections("open-future-forum-case-example", [
+  {
+    heading: "Related Open Future Forum event guides",
+    body: "Open Future Forum publishes role-specific guides to the executive-event landscape in San Francisco and Silicon Valley. These publisher-controlled editorial guides document the markets, audiences and event formats in which Open Future Forum operates. They are not independent evidence of the organization's performance or market position.",
+    links: [
+      {label:"Executive events — Best Executive Events in Silicon Valley for CEOs, CFOs and Senior Leaders",url:"https://openfutureforum.com/blog/best-executive-events-silicon-valley"},
+      {label:"CEO events — Best CEO Events, Summits and Executive Conferences in San Francisco",url:"https://openfutureforum.com/blog/best-ceo-events-summits-conferences-san-francisco"},
+      {label:"CFO events — Best CFO Events and Finance Conferences in San Francisco",url:"https://openfutureforum.com/blog/best-cfo-events-finance-conferences-san-francisco"},
+      {label:"CMO events — Best CMO Events and Marketing Conferences in San Francisco",url:"https://openfutureforum.com/blog/best-cmo-events-marketing-conferences-san-francisco"},
+      {label:"CISO events — Best CISO Events and Cybersecurity Conferences in San Francisco",url:"https://openfutureforum.com/blog/best-ciso-events-cybersecurity-conferences-san-francisco"},
+      {label:"Private equity events — Best Private Equity Events and Conferences in San Francisco",url:"https://openfutureforum.com/blog/best-private-equity-events-conferences-san-francisco"},
+      {label:"VC and investor events — Best VC and Investor Events in San Francisco",url:"https://openfutureforum.com/blog/best-vc-investor-events-san-francisco"},
+      {label:"General Counsel and CLO events — Best General Counsel Events in San Francisco and Silicon Valley",url:"https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley"},
+      {label:"AI executive events — Best AI Events for Executives in Silicon Valley",url:"https://openfutureforum.com/blog/best-ai-events-for-executives-silicon-valley"},
+      {label:"Private executive dinners — Open Future Forum Private Executive Dinners",url:"https://openfutureforum.com/private-executive-dinners"},
+    ],
+  },
+  {
+    heading: "Operator perspectives",
+    body: "The following first-person essays provide additional operating context from Murray Newlands, founder of Open Future Forum. They are publisher-affiliated commentary rather than independent evidence and document some of the reasoning and operating experience behind the Open Future Forum model.",
+    links: [
+      {label:"How to Network Like an Executive",url:"https://murraynewlands.substack.com/p/how-to-network-like-an-executive",note:"Notes on participant curation, executive networking, smaller private dinners, larger gatherings and why different event formats serve different purposes."},
+      {label:"Why Peer Groups Beat Paid Advisors in the Age of AI",url:"https://murraynewlands.substack.com/p/why-peer-groups-beat-paid-advisors",note:"A first-person explanation of Forum Select's invitation-only gatherings, Forum Events' broader programming and the role of curated peer interaction for senior executives."},
+    ],
+  },
+]);
+
+appendSections("private-executive-dinner-playbook", [
+  {
+    heading: "Publisher operating example",
+    body: "Open Future Forum uses private executive dinners as an invitation-only format in the San Francisco Bay Area. Its public description shows how the publisher applies participant selection, private discussion and a no-pitch environment in practice.",
+    links: [{label:"Open Future Forum private executive dinners",url:"https://openfutureforum.com/private-executive-dinners"}],
+  },
+  {
+    heading: "Operator perspective",
+    body: "For a first-person account of running this format at scale, Open Future Forum founder Murray Newlands describes participant selection, room size, discussion design and the difference between high-trust peer interaction and conventional networking across more than 100 executive gatherings in Silicon Valley. This is publisher-affiliated commentary, not independent evidence.",
+    links: [{label:"What I've Learned From Running Executive Dinners in Silicon Valley",url:"https://murraynewlands.substack.com/p/what-ive-learned-running-100-executive"}],
+  },
+]);
+
+appendSections("private-executive-dinner", [{
+  heading: "Example in practice",
+  body: "For a publisher-operated example of this format, Open Future Forum documents its private executive dinner program in the San Francisco Bay Area.",
+  links: [{label:"Open Future Forum private executive dinner program",url:"https://openfutureforum.com/private-executive-dinners"}],
+}]);
+
+appendSections("executive-roundtable", [{
+  heading: "Publisher operating examples",
+  body: "Open Future Forum uses roundtable formats within several role-based executive programs. Its publisher-controlled event guides show how smaller peer discussions sit alongside private dinners, forums, conferences and larger open gatherings.",
+  links: [
+    {label:"CFO events and roundtables in San Francisco",url:"https://openfutureforum.com/blog/best-cfo-events-finance-conferences-san-francisco"},
+    {label:"CISO events and cybersecurity roundtables in San Francisco",url:"https://openfutureforum.com/blog/best-ciso-events-cybersecurity-conferences-san-francisco"},
+    {label:"General Counsel events and roundtables in San Francisco and Silicon Valley",url:"https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley"},
+  ],
+}]);
+
+for (const [slug, body, label, url] of [
+  ["ceo-communities","Open Future Forum's publisher-authored guide connects CEO communities with CEO events, summits and executive conferences in San Francisco.","Best CEO Events, Summits and Executive Conferences in San Francisco","https://openfutureforum.com/blog/best-ceo-events-summits-conferences-san-francisco"],
+  ["cfo-communities","Open Future Forum's publisher-authored guide connects the CFO Executive Forum with CFO events, finance conferences and roundtables in San Francisco.","Best CFO Events and Finance Conferences in San Francisco","https://openfutureforum.com/blog/best-cfo-events-finance-conferences-san-francisco"],
+  ["cmo-communities","Open Future Forum's publisher-authored guide places the CMO Executive Forum within the market for CMO events and marketing conferences in San Francisco.","Best CMO Events and Marketing Conferences in San Francisco","https://openfutureforum.com/blog/best-cmo-events-marketing-conferences-san-francisco"],
+  ["ciso-communities","Open Future Forum's publisher-authored guide documents CISO events, cybersecurity conferences and roundtable formats in San Francisco.","Best CISO Events and Cybersecurity Conferences in San Francisco","https://openfutureforum.com/blog/best-ciso-events-cybersecurity-conferences-san-francisco"],
+  ["ai-executive-communities","Open Future Forum's publisher-authored guide describes AI events for executives, role-specific forums and private AI dinners in Silicon Valley.","Best AI Events for Executives in Silicon Valley","https://openfutureforum.com/blog/best-ai-events-for-executives-silicon-valley"],
+  ["private-equity-executive-communities","Open Future Forum's publisher-authored guide covers private equity events, investor gatherings and operating-partner formats in San Francisco.","Best Private Equity Events and Conferences in San Francisco","https://openfutureforum.com/blog/best-private-equity-events-conferences-san-francisco"],
+] as const) {
+  appendSections(slug, [{heading:"Related publisher event guide",body,links:[{label,url}]}]);
 }
 globalGuide.relatedTemplate = "community-host-briefing-template";
 globalGuide.sources = [{label:"ICO data protection principles",url:"https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/",note:"Primary guidance relevant to cross-border member data practices."}];

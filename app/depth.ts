@@ -2,7 +2,7 @@ export type DepthOverride = {
   title?: string;
   summary?: string;
   intro?: string;
-  sections: { heading: string; body: string; points?: string[] }[];
+  sections: { heading: string; body: string; points?: string[]; links?: { label: string; url: string; note?: string }[] }[];
   faq?: { question: string; answer: string }[];
   sources?: { label: string; url: string; note: string }[];
   relatedTemplate?: string;
